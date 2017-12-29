@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/item_record_selector"
+              android:orientation="vertical"
+              android:layout_width="300dp"
+              android:layout_height="80dp"
+              android:gravity="center"
+    >
+
+    <TextView
+        android:textSize="30px"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/pathOfStorage"
+        android:textColor="@color/record_title"
+        android:gravity="center"
+        />
+    <TextView
+        android:textSize="30px"
+        android:id="@+id/choose_storage_tv"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@color/record_content"
+        />
+
+</LinearLayout>

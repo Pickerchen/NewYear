@@ -1,0 +1,1 @@
+include ':app', ':launchertools', ':ltipc', ':secqresetting', ':floatwindow', ':ipcamera', ':androidtvwidget'

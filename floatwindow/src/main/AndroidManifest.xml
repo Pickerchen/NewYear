@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.ipcamera.main"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="2017101901"
+    android:versionName="v1.0.4.24">
+
+
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- android:allowBackup="true"   android:process="com.sen5.ipcamera.process" -->
+    <application
+       android:process="com.sen5.ipcamera.process"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ipcamera.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <!--<category android:name="android.intent.category.LAUNCHER" />-->
+
+        <service
+            android:name="com.ipcamera.main.service.FingerPrintViewService"
+            android:exported="true">
+
+            <!-- android:process="com.ipcamera.floatservice" -->
+            <!-- android:process="com.amlogic.dvb" -->
+            <intent-filter>
+                <action android:name="com.ipcamera.floatviewservice" />
+            </intent-filter>
+        </service>
+
+        <!-- android:process="com.ipcamera.floatservice" android:process="com.amlogic.dvb"-->
+       <!--  <service
+            android:name="hsl.p2pipcam.camera.BridgeService"
+            
+            android:process="com.ipcamera.floatservice" /> -->
+        
+        <service
+            android:name="com.ipcamera.main.service.TestService"
+            android:exported="true"
+            android:process="com.ipcamera.floatservicetest" >
+
+            <!-- android:process="com.amlogic.dvb" -->
+            <intent-filter>
+                <action android:name="com.ipcamera.floatviewservicetest" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.ipcamera.main.receiver.RecordReceiver" >
+            <intent-filter>
+                <action android:name="com.amlogic.osdoverlay.RECORD_ALARM" />
+                <action android:name="com.amlogic.osdoverlay.START_RECORD" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

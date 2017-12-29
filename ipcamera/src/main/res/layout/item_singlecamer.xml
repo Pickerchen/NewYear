@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ipcamerasen5.main.widget.SingleCameraRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="false"
+    android:visibility="visible"
+
+    android:layout_height="match_parent"/>
+   <!-- android:background="@mipmap/bg_camera_default_allscreen"-->

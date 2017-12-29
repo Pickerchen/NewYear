@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ipcamera_connect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    tools:context="com.sen5.smartlifebox.ui.camera.ConnectCameraActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:gravity="center_vertical"
+        android:id="@+id/ll_progress">
+
+        <TextView
+            android:background="@drawable/shape_circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_h3"
+            tools:text="120s"
+            android:textColor="@color/text_white"
+            android:id="@+id/tv_timer"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_h1"
+            android:textColor="@color/text_white"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ip_camera_is_connecting"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="@color/text_white"
+        android:text="@string/restart_camera"/>
+
+</RelativeLayout>

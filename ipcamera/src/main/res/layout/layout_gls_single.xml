@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="false"
+
+    android:layout_height="match_parent">
+   <!-- android:background="@mipmap/bg_camera_default_allscreen"-->
+    <android.opengl.GLSurfaceView
+        android:id="@+id/lgls_glsurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:focusable="false" />
+   <!-- android:background="@mipmap/bg_camera_default_allscreen"-->
+    <include
+        android:id="@+id/lgls_load_ui"
+        layout="@layout/main_load_ui"
+        android:visibility="gone"
+        />
+
+    <com.ipcamerasen5.main.widget.Sen5TextView
+        android:id="@+id/lgls_tv_camera_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textSize="48dp"
+        android:text="@string/status_off_line"
+        android:textColor="@color/transparency_white"
+        android:focusable="false"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+</RelativeLayout>

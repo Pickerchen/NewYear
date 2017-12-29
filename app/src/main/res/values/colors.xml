@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#eeeeee</color>
+    <color name="white_ap_40">#98eeeeee</color>
+    <color name="bg_blue_ap_30_start">#0486ff</color>
+    <color name="bg_blue_ap_30_end">#1875d1</color>
+    <color name="gary">#b3b3b3</color>
+    <color name="bg_gary">#cc191919</color>
+    <color name="bg_black_ap_20">#99000000</color>
+    <color name="bg_black_ap_30">#b3000000</color>
+    <color name="bg_black_ap_40">#60000000</color>
+    <color name="bg_black_ap_5">#e6000000</color>
+    <color name="red">#dc4034</color>
+    <color name="yellow">#f2dc00</color>
+    <color name="green">#15aa50</color>
+    <color name="blue">#4bb3e4</color>
+    
+    <color name="socket_green">#00a982</color>
+    <color name="light_yellow">#f39d30</color>
+    <color name="outlet_green">#00A982</color>
+    <color name="tv_blue">#0cabc6</color>
+    <color name="tem_red">#ffeaed</color>
+    <color name="tem_blue">#28B5F5</color>
+    <color name="warning_red">#e47272</color>
+    <color name="scan_txt_blue">#00bbd3</color>
+    <color name="bg_dialog">#e52d2d2d</color>
+</resources>

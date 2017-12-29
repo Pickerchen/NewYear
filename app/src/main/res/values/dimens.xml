@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size">21dp</dimen>
+    <!-- workspace -->
+    <dimen name="pageLayoutWidthGap">-1dip</dimen>
+    <dimen name="pageLayoutHeightGap">-1dip</dimen>
+    <dimen name="pageLayoutPaddingTop">20dip</dimen>
+    <dimen name="pageLayoutPaddingBottom">35dip</dimen>
+    <dimen name="pageLayoutPaddingLeft">50dip</dimen>
+    <dimen name="pageLayoutPaddingRight">50dip</dimen>
+
+    <!-- PageViewCellLayout -->
+    <dimen name="apps_width_gap">15dip</dimen>
+    <dimen name="apps_height_gap">25dip</dimen>
+    <dimen name="view_width">90dp</dimen>
+
+
+    <dimen name="btn_scene_size">45dp</dimen>
+    <dimen name="dimen_94">94dp</dimen>
+    <dimen name="dimen_112">112dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="dimen_300">300dp</dimen>
+    <dimen name="dimen_198">198dp</dimen>
+    <dimen name="dimen_290">290dp</dimen>
+    <dimen name="dimen_163">163dp</dimen>
+    <dimen name="dimen_210">210dp</dimen>
+
+    <!-- 滚动窗口 -->
+    <dimen name="fading_edge">80dp</dimen>
+
+</resources>

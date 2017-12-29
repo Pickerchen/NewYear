@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dialog">
+
+
+    <com.sen5.smartlifebox.widget.WaterWaveView
+        android:id="@+id/waterWaveView"
+        android:layout_width="373dp"
+        android:layout_height="match_parent" />
+
+    <com.sen5.smartlifebox.widget.ScanView
+        android:id="@+id/scanView"
+        android:layout_width="373dp"
+        android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--focusableInTouchMode只是测试鼠标效果-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="120dp"
+    android:background="@android:color/black"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/img_menu_horizontal_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_record" >
+    </ImageView>
+
+   <ImageView
+        android:id="@+id/img_menu_status"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_margin="2dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:text="item1"
+        android:textAlignment="center"
+        android:background="#09000000"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</FrameLayout>

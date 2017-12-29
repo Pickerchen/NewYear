@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_LTCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_black_ap_30"
+        android:transitionName="ltCamera"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/last_fame"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:visibility="gone" />-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/lgls_load_ui"
+            layout="@layout/float_main_load_ui"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:visibility="gone" />
+
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/lgls_tv_camera_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:focusable="false"
+            android:gravity="bottom|right"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_def"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_def"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_camera_default" />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:text="@string/no_ip_camera_installed"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_blue_line"
+        android:visibility="gone"
+        />
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_4"
+        android:maxLevel="30"
+        android:minLevel="0" />
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_4"
+        android:maxLevel="50"
+        android:minLevel="31" />
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_3"
+        android:maxLevel="70"
+        android:minLevel="51" />
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_2"
+        android:maxLevel="90"
+        android:minLevel="71" />
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_1"
+        android:maxLevel="110"
+        android:minLevel="91" />
+    <item
+        android:drawable="@drawable/ic_settings_wifi_secure_0"
+        android:maxLevel="120"
+        android:minLevel="111" />
+    <item android:drawable="@drawable/ic_settings_wifi_secure_0"
+        android:minLevel="121"
+        android:maxLevel="1000"/>
+</level-list>

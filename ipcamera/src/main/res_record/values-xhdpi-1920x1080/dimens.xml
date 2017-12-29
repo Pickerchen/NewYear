@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_video_type_1">50dp</dimen>
+    <dimen name="activity_video_type_2">45dp</dimen>
+    <dimen name="activity_video_type_3">22.5dp</dimen>
+    <dimen name="activity_video_type_4">56.25dp</dimen>
+
+
+    <!--过百，为首字母大写-->
+    <dimen name="fourty">30dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">45dp</dimen>
+    <dimen name="thirty">22.5dp</dimen>
+    <dimen name="twentyFive">18.75dp</dimen>
+    <dimen name="ten">7.5dp</dimen>
+    <dimen name="twentyEight">21dp</dimen>
+    <dimen name="twenty">15dp</dimen>
+    <dimen name="TE">210dp</dimen>
+    <dimen name="THundred">150dp</dimen>
+    <dimen name="fifteen">11.25dp</dimen>
+    <dimen name="eight">6dp</dimen>
+    <dimen name="ON">142dp</dimen>
+    <dimen name="OF">105dp</dimen>
+    <dimen name="TT">172.5dp</dimen>
+
+    <dimen name="five">3.75dp</dimen>
+    <dimen name="sixteen">12dp</dimen>
+    <dimen name="OS">127.5dp</dimen>
+    <dimen name="TTwenty">165dp</dimen>
+
+    <dimen name="ninety">67.5dp</dimen>
+    <dimen name="FHundred">300dp</dimen>
+    <dimen name="OSS">132dp</dimen>
+    <dimen name="FF">337.5dp</dimen>
+    <dimen name="fiftyFive">41.25dp</dimen>
+    <dimen name="fourtyFive">33.75dp</dimen>
+    <dimen name="thirtyFive">26.25dp</dimen>
+    <dimen name="eighty">60dp</dimen>
+    <dimen name="TFO">180.75dp</dimen>
+    <dimen name = "N_eighty">-60dp</dimen>
+
+    <dimen name = "fortyEight">36dp</dimen>
+    <dimen name = "ThreeHundred">225dp</dimen>
+    <dimen name = "OE">135dp</dimen>
+    <dimen name = "OT">90dp</dimen>
+    <dimen name = "six">4.5dp</dimen>
+    <dimen name = "NineTyFive">71.25dp</dimen>
+    <dimen name = "seventy">52.5dp</dimen>
+    <dimen name = "OO">82.5dp</dimen>
+
+    <dimen name = "thirteen">9.75dp</dimen>
+    <dimen name = "HundredThirty">97.5dp</dimen>
+    <dimen name = "eightyFive">63.75dp</dimen>
+    <dimen name = "twentySix">19.5dp</dimen>
+    <dimen name = "HundredFourtyFive">108.75dp</dimen>
+    <dimen name = "twentyThree">17.25dp</dimen>
+    <dimen name = "N_ten">-7.5dp</dimen>
+    <dimen name = "hundred">75dp</dimen>
+
+</resources>

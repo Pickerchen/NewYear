@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 触摸模式下单击时的背景图片 -->
+    <item android:state_pressed="true" android:color="#ffffff"/>
+    <item android:state_focused="true" android:color="#ffffff"/>
+      <item android:state_focused="false" android:color="#ff000000"/>
+    <!-- <item android:state_focused="false" android:color="#ed1846"/> -->
+
+</selector>

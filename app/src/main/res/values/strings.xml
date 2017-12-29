@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="add_app_failed">Add appliacation failed!</string>
+    <string name="open_app_failed">Open the application failed!</string>
+
+    <string name="week_sun">Sunday</string>
+    <string name="week_mon">Monday</string>
+    <string name="week_tue">Tuesday</string>
+    <string name="week_wed">Wednesday</string>
+    <string name="week_thu">Thursday</string>
+    <string name="week_fri">Friday</string>
+    <string name="week_sat">Saturday</string>
+    <string name="loading">loading...</string>
+    <string name="status_connecting">connecting</string>
+    <string name="camera">Camera</string>
+    <string name="scene_title">Home Automation Scene</string>
+    <string name="scene">Scene</string>
+    <string name="devices">Devices</string>
+
+    <string name="devices_long">Devices Installed</string>
+
+    <string name="sensor">Sensor</string>
+    <string name="more_devices">Other Devices</string>
+
+    <string name="more_devices_long">Other Devices in Market</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="door_sensor">Door Sensor</string>
+    <string name="motion_sensor">Motion sensor</string>
+    <string name="light_device">Light</string>
+    <string name="relay">Relay</string>
+    <string name="outlet_device">Outlet</string>
+    <string name="zha_sensor">ZHA Sensor</string>
+    <string name="smoke_sensor">Smoke Sensor</string>
+    <string name="gas_sensor">Gas Sensor</string>
+    <string name="co_sensor">CO Sensor</string>
+    <string name="shock_sensor">Vibration Sensor</string>
+    <string name="leak_sensor">Water Leak</string>
+    <string name="security_control_sensor">Security Control Sensor</string>
+    <string name="emergency_sensor">Emergency Sensor</string>
+    <string name="alertor_sensor">Alertor Sensor</string>
+    <string name="humiture_sensor">Tem. &amp; Hum.</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="thermostat_sensor">Thermostat</string>
+
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">unknown status</string>
+    <string name="device_added">device added</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+
+    <string name="door_open">open the door</string>
+    <string name="door_close">close door</string>
+    <string name="thing_move">something move</string>
+    <string name="sensor_trigger">trigger</string>
+    <string name="sensor_get_right">get right</string>
+    <string name="Curtain">Curtain</string>
+    <string name="pop_Combustible_gas">Combustible Gas</string>
+    <string name="pop_leak">Leak</string>
+    <string name="Lock">Lock</string>
+    <string name="Motion">Motion</string>
+    <string name="Outlet">Outlet</string>
+    <string name="Siren">Siren</string>
+    <string name="Co">CO</string>
+    <string name="Smoke">Smoke</string>
+    <string name="Tem_Humid">Tem. &amp; Hum.</string>
+    <string name="Thermostat">Thermostat</string>
+
+
+    <string name="Curtain_des">Curtain</string>
+    <string name="pop_Gombustible_gas_des">Combustible gas detector detects the presence of gases in an area, often as part of a safety system.</string>
+    <string name="pop_leak_des">Monitor the water leak situation.</string>
+    <string name="Lock_des">Lock</string>
+    <string name="Motion_des">Motion sensor detects moving objects, particularly people.</string>
+    <string name="Outlet_des">Could be remotely turned ON or OFF.</string>
+    <string name="Siren_des">Sound an alarm when events are triggered.</string>
+    <string name="Co_des">Detects the presence of the carbon monoxide (CO) gas in order to prevent carbon monoxide poisoning.</string>
+    <string name="Smoke_des">Smoke detector is a device that senses smoke, typically as an indicator of fire.</string>
+    <string name="Tem_Humid_des">Detects indoor temperature and humidity.</string>
+    <string name="Thermostat_des">Senses the temperature of a system and maintains the system\'s temperature  near a desired setpoint.</string>
+    <string name="door_sensor_des">Door sensor switch detects entry protecting your home or office whether you are in or out.</string>
+    <string name="light_device_des">Could be remotely turned ON or OFF , brightness and color controlled.</string>
+    <string name="shock_sensor_des">Vibration sensor is used to indicate whether or not the threshold of specified vibration has occurred.</string>
+    <string name="warning">Warning</string>
+
+    <string name="unknown">Offline</string>
+    <string name="def_room">default room</string>
+    <string name="string_add_dev">Adding Device</string>
+    <string name="apps">Apps</string>
+    <string name="motion">Motion</string>
+    <string name="Tampered">Tampered</string>
+    <string name="Normal">Normal</string>
+    <string name="Shock">Shocked</string>
+    <string name="Online">Online</string>
+    <string name="Offline">Offline</string>
+    <string name="add_security_control_sensor">Add security remote control to succeed</string>
+    <string name="scan_devices_tips">Scanning your new devices</string>
+    <string name="add_devices">Add Devices</string>
+    <string name="no_ip_camera_installed">No Wifi/IP Camera Installed</string>
+    <string name="show_more">Show More</string>
+    <string name="show_less">Show Less</string>
+    <string name="string_standby">Standby</string>
+    <string name="string_current">Current\t</string>
+</resources>

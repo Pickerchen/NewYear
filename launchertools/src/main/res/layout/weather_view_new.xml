@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2017-01-12] For weatherView -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/weather_left_rl"
+        android:layout_width="130dp"
+        android:layout_height="86dp"
+        android:background="@drawable/selector_weather_bg_one">
+
+        <View
+            android:id="@+id/v_line_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="@color/color_text"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/v_line_vertical"
+            android:layout_width="1dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="120dp"
+            android:background="@color/color_text"
+            android:visibility="gone"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/txt_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="11dp"
+            android:maxLines="1"
+            android:text="@string/unknow_temp"
+            android:textColor="@color/color_text"
+            android:textSize="26dp"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/txt_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="14dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/ic_location"
+            android:maxLines="1"
+            android:text="@string/unknow_location"
+            android:textColor="@color/color_text"
+            android:textSize="12dp"
+            android:visibility="gone"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/txt_weather_condition"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_degree"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:textColor="@color/color_text"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/weather_right_rl"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/selector_weather_bg_two"
+        android:paddingLeft="15dp">
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/one"
+            style="@style/style_weather_status"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:text="@string/weather_dew"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/weather_status_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/one"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/two"
+            style="@style/style_weather_status"
+            android:layout_below="@+id/weather_status_one"
+            android:text="@string/weather_hum"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/weather_status_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_status_one"
+            android:layout_toRightOf="@+id/two"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/three"
+            style="@style/style_weather_status"
+            android:layout_below="@+id/weather_status_two"
+            android:text="@string/weather_uv"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/weather_status_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_status_two"
+            android:layout_toRightOf="@+id/three"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/four"
+            style="@style/style_weather_status"
+            android:layout_below="@+id/weather_status_three"
+            android:text="@string/weather_wind"
+            android:textSize="@dimen/txt_weather"/>
+
+        <com.sen5.launchertools.widget.Sen5TextView
+            android:id="@+id/weather_status_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_status_three"
+            android:layout_toRightOf="@+id/four"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/txt_weather"/>
+    </RelativeLayout>
+
+</merge>

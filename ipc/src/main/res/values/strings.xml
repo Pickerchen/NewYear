@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ipc</string>
+    <string name="loading">loading...</string>
+    <string name="no_ip_camera_installed">No wifi/IP Camera Installed</string>
+    <string name="Offline">Offline</string>
+    <string name="status_connecting">connecting</string>
+
+</resources>

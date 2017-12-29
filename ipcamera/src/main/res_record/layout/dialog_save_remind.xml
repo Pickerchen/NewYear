@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/THundred"
+                android:background="@color/record_bg"
+    >
+
+    <TextView
+        android:paddingLeft="@dimen/twenty"
+        android:paddingRight="@dimen/twenty"
+        android:textColor="@color/tv_white"
+        android:textSize="42px"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/OT"
+        android:text="@string/clock_save_remind"
+        android:gravity="center"
+        android:id="@+id/dialog_clock_tip"
+        />
+    <LinearLayout
+        android:layout_below="@id/dialog_clock_tip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/fifty"
+        android:paddingLeft="@dimen/fifty"
+        android:gravity="center"
+        >
+        <Button
+            android:gravity="center"
+            android:textSize="38px"
+            android:textColor="@color/tv_white"
+            android:background="@drawable/setting_dialog_selector"
+            android:layout_width="@dimen/hundred"
+            android:layout_height="@dimen/fourty"
+            android:id="@+id/dialog_clock_btn_sure"
+            android:text="@string/settings_ok"
+            />
+
+        <Button
+            android:layout_marginLeft="@dimen/fifty"
+            android:gravity="center"
+            android:textSize="38px"
+            android:textColor="@color/tv_white"
+            android:background="@drawable/setting_dialog_selector"
+            android:layout_width="@dimen/hundred"
+            android:layout_height="@dimen/fourty"
+            android:id="@+id/dialog_clock_btn_cancel"
+            android:text="@string/settings_cancel"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

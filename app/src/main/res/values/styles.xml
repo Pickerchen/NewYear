@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/bg_blue</item>
+
+        <!-- AppCompat EditText默认状态状态底线颜色 -->
+        <item name="colorControlNormal">@color/bg_white</item>
+        <!-- AppCompat EditText选中时的底线颜色 -->
+        <item name="colorControlActivated">@color/bg_blue</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/masked2</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--<style name="MyTheme" parent="AppTheme">-->
+        <!--<item name="android:windowBackground">@drawable/masked2</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>-->
+
+    <!--</style>-->
+
+
+    <!-- Toast动画 -->
+    <style name="ToastAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/toast_fall_in</item>
+        <item name="android:windowExitAnimation">@anim/toast_fall_out</item>
+    </style>
+
+    <style name="ScaleAbleViewStyle">
+        <item name="android:layout_width">@dimen/dimen_94</item>
+        <item name="android:layout_height">@dimen/dimen_94</item>
+        <item name="android:background">@drawable/selector_bg_blue_scene</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:hint">@string/scene</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+
+    <style name="AddDevicesStyle">
+        <item name="android:layout_width">@dimen/dimen_94</item>
+        <item name="android:layout_height">@dimen/dimen_94</item>
+        <item name="android:background">@drawable/selector_bg_blue</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LabelTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="cameraStyle">
+        <item name="android:layout_width">290dp</item>
+        <item name="android:layout_height">163dp</item>
+    </style>
+
+
+
+
+
+</resources>

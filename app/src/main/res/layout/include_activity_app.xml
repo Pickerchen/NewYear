@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.sen5.secure.launcher.widget.Sen5TextView
+        style="@style/LabelTextStyle"
+        android:paddingLeft="53dp"
+        android:text="@string/apps"
+        app:CustomTypeface="ROBOTO_CONDENSED_REGULAR"
+
+        />
+
+    <com.open.androidtvwidget.leanback.recycle.RecyclerViewTV
+        android:id="@+id/RecyclerViewApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:focusable="false"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="53dp"
+        android:paddingTop="24dp"></com.open.androidtvwidget.leanback.recycle.RecyclerViewTV>
+</RelativeLayout>

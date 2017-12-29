@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2017-01-12] For udpate network status -->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/ic_wifi_1_white"
+        android:maxLevel="0"/>
+    <item
+        android:drawable="@drawable/ic_wifi_2_white"
+        android:maxLevel="1"/>
+    <item
+        android:drawable="@drawable/ic_wifi_3_white"
+        android:maxLevel="2"/>
+    <item
+        android:drawable="@drawable/ic_wifi_4_white"
+        android:maxLevel="3"/>
+
+    <!-- [level 4 用于表示以太网连接状态] -->
+    <item
+        android:drawable="@drawable/ic_ethernet_white"
+        android:maxLevel="4"/>
+
+    <!-- [level 5 用于表示网络断开或无信号状态] -->
+    <item
+        android:drawable="@drawable/ic_network_break_white"
+        android:maxLevel="5"/>
+
+    <!-- [level 6 - 11] 用于表示移动网络模块的连接状态  -->
+    <item
+        android:drawable="@drawable/ic_no_signal_white"
+        android:maxLevel="6"/>
+    <item
+        android:drawable="@drawable/ic_signal_1_white"
+        android:maxLevel="7"/>
+    <item
+        android:drawable="@drawable/ic_signal_2_white"
+        android:maxLevel="8"/>
+    <item
+        android:drawable="@drawable/ic_signal_3_white"
+        android:maxLevel="9"/>
+    <item
+        android:drawable="@drawable/ic_signal_4_white"
+        android:maxLevel="10"/>
+    <item
+        android:drawable="@drawable/ic_no_signal_white"
+        android:maxLevel="11"/>
+
+</level-list>

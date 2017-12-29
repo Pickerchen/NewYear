@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wifi_password"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    tools:context="com.sen5.smartlifebox.ui.camera.EnterWifiPasswordActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/text_white"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:text="@string/enter_contact_number"
+        android:id="@+id/tv_name"/>
+
+    <EditText
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:id="@+id/et_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/text_white"
+        android:layout_alignBottom="@id/tv_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        android:layout_marginEnd="200dp"/>
+
+
+</RelativeLayout>

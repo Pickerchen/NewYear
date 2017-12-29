@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/record_bg"
+    >
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/tv_white"
+        android:textSize="42px"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="@string/sdCardlargeTip"
+        android:gravity="center"
+        android:id="@+id/dialog_clock_tip"
+        />
+    <LinearLayout
+        android:layout_below="@id/dialog_clock_tip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:gravity="center"
+        >
+        <Button
+            android:gravity="center"
+            android:textSize="38px"
+            android:textColor="@color/tv_white"
+            android:background="@drawable/item_record_selector"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/dialog_storageTip_btn_sure"
+            android:paddingRight="20dp"
+            android:text="@string/settings_ok"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

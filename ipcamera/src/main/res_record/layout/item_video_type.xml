@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/btn_file_10svideo_h"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/item_video_type_iv"
+        android:focusable="true"
+        />
+    <TextView
+        android:id="@+id/item_video_tv"
+        android:textColor="@color/record_content"
+        android:textSize="36px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10S Videos"
+        />
+</LinearLayout>

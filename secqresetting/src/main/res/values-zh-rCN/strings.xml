@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SecQre Settings</string>
+    <string name="secQre">secQre</string>
+    <!--main-->
+    <string name="pair_home">设备配对</string>
+    <string name="ip_cameras">摄像头</string>
+    <string name="members">家庭成员</string>
+    <string name="other">其他设置</string>
+
+    <!--Pair Home-->
+    <string name="pair_home_tip1">① \n打开手机secQre应用，找到\"添加新的智能家居网关\"，点击添加按钮</string>
+    <string name="pair_home_tip2">② \n用手机扫描二维码</string>
+    <string name="pair_home_tip3">③ \n弹出对话框后，点击\"允许\"添加成员</string>
+    <string name="pair_home_tip4">请保持手机与盒子连接同一个网络</string>
+    <string name="add_member_ing">正在添加用户&#8230;</string>
+
+    <!--IPCamera-->
+    <string name="add_new_ip_camera">添加新的IP CAMERA</string>
+    <string name="added_ip_cameras">被添加的IP CAMERAS</string>
+    <string name="available_networks">可用的网络</string>
+    <string name="see_all">查看所有网络</string>
+    <string name="add_new_network">添加一个新的网络</string>
+    <string name="ip_camera_is_connecting">正在设置IP Camera&#8230;</string>
+    <string name="restart_camera">请手动重启IP Camera</string>
+    <string name="set_wifi_successfully">设置WIFI Camera成功！</string>
+    <string name="set_wifi_failure">设置WIFI Camera失败！</string>
+    <string name="hide_password">隐藏密码</string>
+    <string name="enter_wifi_name">输入WIFI的名字</string>
+    <string name="enter_wifi_password">输入WIFI密码：</string>
+    <string name="no_search_wifi">没有扫描到WIFI！</string>
+    <string name="search_wifi_timeout">扫描WIFI超时</string>
+    <string name="scan_wifi">正在扫描WIFI&#8230;</string>
+    <string name="find_lan_cameras">查找局域网IP Camera</string>
+    <string name="set_wifi_camera">设置WIFI IP Camera</string>
+    <string name="scan_lan_cameras">正在扫描局域网IP Camera&#8230;\n请确保盒子和IP Camera连接在同一个路由器上,建议盒子用网线连接路由器.</string>
+    <string name="password_empty">WIFI 密码不能为空</string>
+    <string name="available_cameras">可用的IP Camera</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="add_camera_upper_limit">最多只能添加四个IP Camera</string>
+    <string name="camera_invalid">摄像头无效</string>
+    <string name="camera_already_add">IP Camera已经被添加过了</string>
+    <string name="enter_camera_name">输入IP Camera的名字</string>
+    <string name="modify_camera_name">正在修改IP Camera的名字&#8230;</string>
+    <string name="camera_unnamed">未命名</string>
+
+    <!--Members-->
+    <string name="member">成员</string>
+    <string name="add_member_success">添加成员成功</string>
+    <string name="enter_member_name">输入成员的名字</string>
+    <string name="name_not_empty">名字不能为空</string>
+    <string name="name_not_special_character">名字智能是字母、数字和汉字</string>
+    <string name="name_exceed_length">名字程度不能超过64</string>
+    <string name="apply_to_join">申请连接智能网关</string>
+    <string name="allow">允许</string>
+    <string name="refuse">拒绝</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <!--other-->
+    <string name="connect_home_fail">连接到房子失败</string>
+    <string name="please_connect_network">请链接网络</string>
+    <string name="hints">提示</string>
+    <string name="confirm">确定</string>
+    <string name="no_camera_hint">没有扫描到IP Camera。请确保IP Camera与机顶盒连接在同一个网络，或者尝试重新扫描IP Camera。</string>
+    <string name="set_wifi_timeout">设置WIFI Camera超时！</string>
+    <string name="set_wifi_again">重新设置WIFI</string>
+    <string name="try_again">重试</string>
+    <string name="emergency_contancts">紧急联系人</string>
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">未知状态</string>
+    <string name="device_added">设备被添加</string>
+    <string name="on">打开</string>
+    <string name="off">关闭</string>
+    <string name="door_open">门窗打开</string>
+    <string name="door_close">门窗关闭</string>
+    <string name="thing_move">物体移动</string>
+    <string name="sensor_trigger">被触发</string>
+    <string name="sensor_get_right">恢复正常</string>
+
+    <!-- Device -->
+    <string name="action_device">控制设备</string>
+    <string name="sensor">传感器</string>
+    <string name="relay">继电器</string>
+    <string name="remote">远程</string>
+    <string name="door_sensor">门磁传感器</string>
+    <string name="motion_sensor">移动侦测传感器</string>
+    <string name="light_device">智能灯</string>
+    <string name="outlet_device">智能插座</string>
+    <string name="zha_sensor">标准ZigBee传感器器</string>
+    <string name="smoke_sensor">烟雾传感器</string>
+    <string name="gas_sensor">可燃气体传感器</string>
+    <string name="co_sensor">有害气体传感器</string>
+    <string name="shock_sensor">震动传感器</string>
+    <string name="Thermostat">温控器</string>
+    <string name="leak_sensor">水浸传感器</string>
+    <string name="security_control_sensor">安防遥控器</string>
+    <string name="emergency_sensor">警报器</string>
+    <string name="humiture_sensor">温湿度传感器</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="notification_system">通知系统</string>
+    <string name="add_new_contact">添加新联系人</string>
+    <string name="contact_management">管理联系人</string>
+    <string name="emergency_contact_selection">选择紧急联系人</string>
+    <string name="alertor_sensor">警报器</string>
+    <string name="edit_name">编辑名字</string>
+    <string name="edit_number">编辑电话号码</string>
+    <string name="enter_contact_name">输入联系人名字</string>
+    <string name="enter_contact_number">输入联系人电话号码</string>
+    <string name="set_to_emergency_contact">设置为紧急联系人</string>
+    <string name="no_next">不，下次再说。</string>
+    <string name="yes_please">是</string>
+    <string name="number_not_empty">号码不能为空</string>
+    <string name="number_only">只能输入数字</string>
+    <string name="number_already_exist">号码已经存在</string>
+    <string name="tip_rename">命名重复，请重新输入</string>
+    <string name="string_Configure">设置网关</string>
+    <string name="string_restore">恢复默认</string>
+    <string name="string_code">设置</string>
+
+    <string name="ok">ok</string>
+    <string name="scan_devices_tips">正在寻找您的新设备</string>
+    <string name="add_security_control_sensor">添加安全控制遥控器成功</string>
+
+    <string name="unknown">离线</string>
+    <string name="select_camera">选择摄像头</string>
+    <string name="set_wifi">设置WIFI</string>
+    <string name="thermostat_sensor">温控器</string>
+    <string name="enter_wifi_password_new">输入WIFI密码：</string>
+    <string name="setting_wifi_camera">设置WIFI摄像头中</string>
+    <string name="setting_wifi_success">设置WIFI成功</string>
+    <string name="setting_wifi_failure">设置WIFI失败</string>
+</resources>

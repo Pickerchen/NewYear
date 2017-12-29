@@ -1,0 +1,129 @@
+<resources>
+    <string name="language">en-us</string>
+
+    <string name="settings_ok">"OK"</string>
+    <string name="settings_cancel">"Cancel"</string>
+    <string name="switch_status_on">on</string>
+    <string name="switch_status_off">off</string>
+    <string name="device">Device</string>
+
+    <!-- ip camera -->
+    <string name="clock_tips">You choose a wrong alarm clock, please choose again</string>
+    <string name="clock_save_remind">Do you want to save the record type</string>
+    <string name="ipcamera_record">Record</string>
+    <string name="ipcamera_record_setting">Record Settings</string>
+    <string name="ipcamera_capture">Capture</string>
+    <string name="ipcamera_full_screen">Full Screen</string>
+    <string name="ipcamera_camera">Camera</string>
+    <string name="ipcamera_fourscreens">Four Screens</string>
+    <string name="ipcamera_singlescreens">Single Screen</string>
+    <string name="ipcamera_settings">Settings</string>
+    <string name="ipcamera_close">Close</string>
+
+    <string name="ipcamera_record_stop">Stop</string>
+    <string name="ipcamera_small_screen">Small Screen</string>
+
+    <string name="camera_one">One</string>
+    <string name="camera_two">Two</string>
+    <string name="camera_three">Three</string>
+    <string name="camera_four">Four</string>
+    <string name="camera_five">Five</string>
+    <string name="cap_success">Success Path : </string>
+    <string name="cap_fail">Capture Fail !</string>
+    <string name="loading">loading ...</string>
+
+    <string name="status_connecting">connecting ...</string>
+    <string name="status_online">online</string>
+    <string name="status_connect_error">error</string>
+    <string name="status_connect_timeout">time out</string>
+    <string name="status_off_line">off line</string>
+
+    <string name="wizards_info">You have not set up a camera yet, \n let\'s get started on it.</string>
+    <string name="wizards_go_btn">Let\'s go</string>
+    <string name="wizards_exit_btn">Next time</string>
+
+
+    <!--record-->
+    <string name="sensor_camera">Sensor\u0026Camera</string>
+    <string name="tenSecond_switch">10s small video function</string>
+    <string name="camera_recording">Camera Recording</string>
+    <string name="record_item_name">WiFiCam</string>
+    <string name="record_item_status">Status:</string>
+    <string name="record_item_status_normal">OnLine</string>
+    <string name="record_item_recording">Recording</string>
+    <string name="record_item_non_record">Non-recording</string>
+    <string name="record_item_timed_recording">Timed Recording</string>
+    <string name="record_item_recordingtype">Recording Type:</string>
+    <string name="record_item_btn_record">RECORD</string>
+    <string name="record_item_btn_stop">STOP</string>
+    <string name="record_setting_Recording_Type_Select">Recording Type Select</string>
+    <string name="record_setting_Recording_Type">Recording Type</string>
+    <string name="record_setting_Detail_Setting">Detail Setting</string>
+    <string name="record_dialog_reminder_title">Important Reminder</string>
+    <string name="record_dialog_reminder_content">When the recording is terminated,the task
+        will be \n cleared and needs to be reset to start a new one.</string>
+    <string name="record_dialog_btn_cancel">CANCEL</string>
+    <string name="record_dialog_btn_stop">STOP</string>
+    <string-array name="record_setting_pop">
+        <item>Timed Recording</item>
+        <item>24h Recording</item>
+        <item>Smart Recording</item>
+        <item>Dynamic Recording</item>
+    </string-array>
+    <!--<item>Dynamic Recording</item>-->
+    <string-array name="record_recycler_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>EveryDay</item>
+    </string-array>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="everyday">Everyday</string>
+    <string name="Verify">Verify</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="save_the_setting">SAVE THE SETTING</string>
+
+    <!--video files-->
+    <string name="video_files">Video Files</string>
+    <string name="reservation">Reservation</string>
+    <string name="tenSecondVideo">10s Videos</string>
+    <string name="usbdrive">USB Drive</string>
+
+
+    <!---->
+    <string name="record_setting_Repeat">repeat</string>
+    <string name="one">mon</string>
+    <string name="two">tue</string>
+    <string name="thr">wed</string>
+    <string name="fou">thu</string>
+    <string name="five">fri</string>
+    <string name="six">sat</string>
+    <string name="seven">sun</string>
+    <string name="week"> </string>
+    <string name="hour">hour</string>
+    <string name="minutes">min</string>
+    <string name="record_remind">Please insert the mobile storage devices</string>
+
+    <string name="record_setting_Detail_description">Record options</string>
+    <string name="record_setting_Detail_description_24h">when you set 24 hours recording, the camera will keep recording in the background.</string>
+    <string name="record_setting_Detail_description_dymanic">when you set dynamic recording, a video is recorded once the camera detects a face.</string>
+    <string name="record_setting_Detail_description_smart">when you set smart recording, a three-minute video will be recorded once the sensors within smart home system are triggered to alarm.</string>
+    <string name="record_device_offline_remind">Equipment drops, temporarily unable to carry out record</string>
+    <string name="record_device_switchClose_remind">Equipment switch is not open, please open the recording switch</string>
+    <string name="choose_storage">Please select the path you are going to store video files</string>
+    <string name="pathOfStorage">The store path</string>
+    <string name="sdCardlargeTip">Disk space is insufficient, please replace the storage devices</string>
+
+
+    <string name="dialog_newStorage_remind">the system has detected a new storage device inserted</string>
+    <string name="dialog_newStorage_hint">storage path:</string>
+</resources>

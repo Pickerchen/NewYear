@@ -1,0 +1,88 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="content_fragment_title_text_bottom_padding">4dp</dimen>
+    <dimen name="content_fragment_title_text_size">36sp</dimen>
+    <dimen name="content_fragment_title_text_top_padding">2dp</dimen>
+    <dimen name="content_fragment_breadcrumb_text_size">18sp</dimen>
+    <dimen name="content_fragment_description_text_size">14sp</dimen>
+    <dimen name="list_item_title_font_size">28dp</dimen>
+    <dimen name="list_item_description_font_size">14sp</dimen>
+    <dimen name="list_item_timestamp_font_size">14sp</dimen>
+    <dimen name="list_item_checkmark_diameter">8dp</dimen>
+    <dimen name="content_fragment_max_icon_height">280dp</dimen>
+    <dimen name="content_fragment_default_icon_height">400dp</dimen>
+    <dimen name="content_fragment_default_icon_width">400dp</dimen>
+    <dimen name="list_item_min_height">64dp</dimen>
+    <dimen name="list_item_vertical_padding">12dp</dimen>
+    <dimen name="list_item_start_padding">20dp</dimen>
+    <dimen name="list_item_delimiter_padding">4dp</dimen>
+    <dimen name="list_item_icon_width">52dp</dimen>
+    <dimen name="list_item_icon_height">52dp</dimen>
+    <dimen name="list_item_end_padding">28dp</dimen>
+    <dimen name="list_item_title_margin_left">25dp</dimen>
+    <dimen name="action_fragment_selector_min_height">8dp</dimen>
+    <dimen name="browse_item_title_font_size">16sp</dimen>
+    <dimen name="browse_item_title_font_size_small">12sp</dimen>
+
+    <integer name="action_description_min_lines">2</integer>
+    <integer name="action_title_min_lines">1</integer>
+    <integer name="indeterminate_frame_duration">30</integer>
+    <dimen name="recyclerView_item_space1">8dp</dimen>
+
+
+    <dimen name="activity_video_type_1">50dp</dimen>
+    <dimen name="activity_video_type_2">60dp</dimen>
+    <dimen name="activity_video_type_3">30dp</dimen>
+    <dimen name="activity_video_type_4">75dp</dimen>
+<!--过百，为首字母大写-->
+    <dimen name="fourty">40dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="twentyFive">25dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="twentyEight">28dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="TE">280dp</dimen>
+    <dimen name="OS">170dp</dimen>
+    <dimen name="THundred">200dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="ON">190dp</dimen>
+    <dimen name="OF">140dp</dimen>
+    <dimen name="TT">230dp</dimen>
+    <dimen name="TTwenty">220dp</dimen>
+    <dimen name="ninety">90dp</dimen>
+    <dimen name="FHundred">400dp</dimen>
+    <dimen name="OSS">176dp</dimen>
+    <dimen name="FF">450dp</dimen>
+    <dimen name="fiftyFive">55dp</dimen>
+    <dimen name="fourtyFive">45dp</dimen>
+    <dimen name="thirtyFive">35dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="TFO">241dp</dimen>
+    <dimen name = "N_eighty">-80dp</dimen>
+    <dimen name = "fortyEight">48dp</dimen>
+    <dimen name = "ThreeHundred">300dp</dimen>
+    <dimen name = "OE">180dp</dimen>
+    <dimen name = "OT">120dp</dimen>
+    <dimen name = "six">6dp</dimen>
+    <dimen name = "NineTyFive">95dp</dimen>
+    <dimen name = "seventy">70dp</dimen>
+    <dimen name = "OO">110dp</dimen>
+    <dimen name = "thirteen">13dp</dimen>
+    <dimen name = "HundredThirty">130dp</dimen>
+    <dimen name = "eightyFive">85dp</dimen>
+    <dimen name = "twentySix">26dp</dimen>
+    <dimen name = "HundredFourtyFive">145dp</dimen>
+    <dimen name = "twentyThree">23dp</dimen>
+    <dimen name = "N_ten">-10dp</dimen>
+    <dimen name = "hundred">100dp</dimen>
+
+
+</resources>

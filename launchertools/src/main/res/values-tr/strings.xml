@@ -1,0 +1,50 @@
+<resources>
+    <!-- [Sen5-Jesseyao-2016-12-07] For GeneralUtils -->
+    <string name="cannot_lunch_bluetooth_settings">Cihaz Bluetooth\'u desteklemiyor!</string>
+    <string name="cant_find_backuprestore_apk">Uygulama bulunamadı!</string>
+    <string name="best_memory_status">Bellek en iyi şekilde temizlendi.</string>
+    <string name="release_memory">Boşaltılan bellek miktarı</string>
+    <string name="currunt_memory">Şu anki boş bellek miktarı</string>
+    <string name="clear_memory">Belleği temizle</string>
+    <string name="tools_settings">Settings</string>
+    <string name="tools_standby">Standby</string>
+    <string name="tools_reboot">Reboot</string>
+    <string name="tools_usb">USB</string>
+    <string name="tools_sdcard">SDCard</string>
+    <string name="tools_filebrowser">File Browser</string>
+    <string name="tools_network">Network</string>
+    <string name="tools_bluetooth">Bluetooth</string>
+    <string name="tools_clearup">Clear Up</string>
+    <string name="tools_secqer_settings">secQre Settings</string>
+    <string name="tools_backup_restore">Backup Restore</string>
+    <string name="tools_speed_test">Speed Test</string>
+    <string name="tools_notification_center">Notification Center</string>
+    <string name="tools_download_center">Download Center</string>
+    <string name="no_bluetooth">Cihaz Bluetooth\'u desteklemiyor!</string>
+    <string name="no_backuprestore">Aygıt yedeklemeyi ve geri yüklemeyi desteklemiyor!</string>
+    <string name="notification_center">Bildirimler</string>
+    <string name="no_notification">Bildirim yok.</string>
+    <string name="clear_all_notification">Hepsini temizle</string>
+    <string name="dialog_reboot_title">Yeniden Başlat</string>
+    <string name="dialog_reboot_message">Yeniden Başlasın mı?</string>
+    <string name="dialog_standby_title">Uyku</string>
+    <string name="dialog_standby_message">Uyku moduna geçilsin mi?</string>
+
+    <!-- weekday -->
+    <string name="sunday">Paz</string>
+    <string name="monday">Pzt</string>
+    <string name="tuesday">Sal</string>
+    <string name="wednesday">Çar</string>
+    <string name="thursday">Per</string>
+    <string name="friday">Cum</string>
+    <string name="saturday">Cts</string>
+
+    <!--  For weather and time -->
+    <string name="unknow_location">Bilinmeyen</string>
+    <string name="unknow_temp">U&#186;</string>
+    <string name="unknow_weather_condition">Bilinmeyen durum</string>
+    <string name="weather_dew">Çiy noktası</string>
+    <string name="weather_hum">Nem</string>
+    <string name="weather_uv">UV Endeksi</string>
+    <string name="weather_wind">Rüzgar</string>
+</resources>

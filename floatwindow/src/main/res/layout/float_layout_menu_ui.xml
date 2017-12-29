@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#00ff0000"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <include
+                android:id="@+id/ll_left"
+                style="@style/style_bottom_item"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                layout="@layout/float_layout_bottom_view_item"
+                android:nextFocusLeft="@+id/ll_close" />
+
+            <include
+                android:id="@+id/ll_right"
+                style="@style/style_bottom_item"
+                android:layout_toRightOf="@+id/ll_left"
+                layout="@layout/float_layout_bottom_view_item" />
+
+            <include
+                android:id="@+id/ll_fullscren"
+                style="@style/style_bottom_item"
+                android:layout_toRightOf="@+id/ll_right"
+                layout="@layout/float_layout_bottom_view_item" />
+
+            <include
+                android:id="@+id/ll_close"
+                style="@style/style_bottom_item"
+                android:layout_toRightOf="@+id/ll_fullscren"
+                layout="@layout/float_layout_bottom_view_item"
+                android:nextFocusRight="@+id/ll_left" />
+        </RelativeLayout>
+
+        <com.ipcamera.main.cuswidget.MainUpView
+            android:id="@+id/bottom_effect"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:visibility="gone" />
+
+</FrameLayout>

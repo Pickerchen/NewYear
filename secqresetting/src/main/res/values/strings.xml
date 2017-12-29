@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">SecQre Settings</string>
+    <string name="secQre">secQre</string>
+
+    <!--main-->
+    <string name="pair_home">Pair Home</string>
+    <string name="ip_cameras">IP Cameras</string>
+    <string name="members">Members</string>
+    <string name="other">Other</string>
+
+    <!--Pair Home-->
+    <string name="pair_home_tip1">① \nOpen secQre and find \"Pair home\" on phone</string>
+    <string name="pair_home_tip2">② \nScan the QR on the right side</string>
+    <string name="pair_home_tip3">③ \nUse remote to confirm (Press \"ALLOW\" to add new member)</string>
+
+
+    <string name="pair_home_tip4">Keep your phone in the same network as secqre cube</string>
+    <string name="add_member_ing">Is to add a member&#8230;</string>
+
+
+    <!--IPCamera-->
+    <string name="add_new_ip_camera">ADD NEW IP CAMERA</string>
+    <string name="added_ip_cameras">ADDED IP CAMERAS</string>
+    <string name="available_networks">AVAILABLE NETWORKS</string>
+    <string name="see_all">See all</string>
+    <string name="add_new_network">Add New Network</string>
+    <string name="ip_camera_is_connecting">Setting IP camera&#8230;</string>
+    <string name="restart_camera">Please restart the IP camera manually</string>
+    <string name="set_wifi_successfully">Set WIFI Camera successfully!</string>
+    <string name="set_wifi_failure">Set WIFI Camera failure!</string>
+    <string name="hide_password">Hide password</string>
+    <string name="enter_wifi_name">Enter name of WIFI network</string>
+    <string name="enter_wifi_password">Enter password for&#x0020;</string>
+    <string name="no_search_wifi">No scan to the WIFI</string>
+    <string name="search_wifi_timeout">Scan WIFI timeout</string>
+    <string name="scan_wifi">Scan the WiFi&#8230;</string>
+    <string name="find_lan_cameras">Find IP Cameras</string>
+    <string name="set_wifi_camera">Set WIFI Camera</string>
+    <string name="scan_lan_cameras">Scan IP cameras&#8230;\nPlease make sure the box and IP camera connect to the same router, we also suggest you to connect the box to the router through LAN cable.</string>
+    <string name="password_empty">Wifi password cannot be empty</string>
+    <string name="available_cameras">AVAILABLE CAMERAS</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="add_camera_upper_limit">Only four camera can ben added</string>
+    <string name="camera_already_add">The camera have been added</string>
+    <string name="camera_invalid">The camera is invalid</string>
+    <string name="enter_camera_name">Enter name of camera</string>
+    <string name="modify_camera_name">Modify camera name&#8230;</string>
+    <string name="camera_unnamed">Unnamed</string>
+
+
+    <!--Members-->
+    <string name="member">Member</string>
+    <string name="add_member_success">Add member success</string>
+    <string name="enter_member_name">Enter name of member</string>
+    <string name="name_not_empty">Name can not be empty</string>
+    <string name="name_not_special_character">Name can contain only letter and number</string>
+    <string name="name_exceed_length">Name length can not exceed 64 byte</string>
+    <string name="apply_to_join">apply to join</string>
+    <string name="allow">Allow</string>
+    <string name="refuse">Refuse</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--other-->
+    <string name="connect_home_fail">Failed to connect to the home</string>
+    <string name="please_connect_network">Please connect network</string>
+    <string name="hints">Hints</string>
+    <string name="confirm">Confirm</string>
+    <string name="no_camera_hint">Did not find Wifi/IP camera. Please make sure the Wifi/IP camera is connected with the same network as the box before you scan it, or try to rescan it</string>
+    <string name="set_wifi_timeout">Set WIFI Camera timeout!</string>
+    <string name="set_wifi_again">Set wifi again</string>
+    <string name="try_again">Tra again</string>
+
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">unknown status</string>
+    <string name="device_added">device added</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="door_open">open the door</string>
+    <string name="door_close">close door</string>
+    <string name="thing_move">something move</string>
+    <string name="sensor_trigger">trigger</string>
+    <string name="sensor_get_right">get right</string>
+
+    <!-- Device -->
+    <string name="action_device">Action Device</string>
+    <string name="sensor">Sensor</string>
+    <string name="remote">Remote</string>
+    <string name="relay">Relay</string>
+    <string name="door_sensor">Door Sensor</string>
+    <string name="motion_sensor">Motion sensor</string>
+    <string name="light_device">Light</string>
+    <string name="outlet_device">Outlet</string>
+    <string name="zha_sensor">ZHA Sensor</string>
+    <string name="smoke_sensor">Smoke Sensor</string>
+    <string name="gas_sensor">Gas Sensor</string>
+    <string name="co_sensor">CO Sensor</string>
+    <string name="shock_sensor">Shock Sensor</string>
+    <string name="leak_sensor">Leak Sensor</string>
+    <string name="security_control_sensor">Security Control Sensor</string>
+    <string name="emergency_sensor">Emergency Sensor</string>
+    <string name="alertor_sensor">Alertor Sensor</string>
+    <string name="humiture_sensor">Humiture Sensor</string>
+    <string name="thermostat_sensor">Thermostat Sensor</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="emergency_contancts">Emergency Contacts</string>
+
+
+    <string name="notification_system">Notification System</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="contact_management">Contact Management</string>
+    <string name="emergency_contact_selection">Emergency Contact Selection</string>
+    <string name="edit_number">Edit Number</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="enter_contact_name">Enter Contact Name</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="set_to_emergency_contact">Set To Emergency Contact</string>
+    <string name="yes_please">Yes, please.</string>
+    <string name="no_next">No, next time.</string>
+    <string name="number_not_empty">Number can not be empty</string>
+    <string name="number_only">Can only enter the Numbers</string>
+    <string name="number_already_exist">Number already existed</string>
+
+
+    <string name="enter_wifi_password_new">Enter password for </string>
+    <string name="tip_rename">Rename duplicate, please re-enter</string>
+    <string name="string_Configure">Configure the gateway</string>
+    <string name="string_restore">Restore the default</string>
+    <string name="string_code">Install code</string>
+    <string name="ok">ok</string>
+
+    <string name="scan_devices_tips">Scanning you new devices</string>
+
+    <string name="add_security_control_sensor">Add security remote control to succeed</string>
+    <string name="unknown">Offline</string>
+    <string name="select_camera">SELECT CAMERA</string>
+    <string name="set_wifi">Set Wifi</string>
+    <string name="setting_wifi_camera">Setting Wifi Camera</string>
+    <string name="setting_wifi_success">Setting WIFI Success</string>
+    <string name="setting_wifi_failure">Setting WIFI Failure</string>
+</resources>

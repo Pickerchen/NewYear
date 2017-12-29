@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="xiaomi_blue">#0072ff</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="color_notification_background">#7f000000</color>
+    <color name="color_notification_title_bar">#263238</color>
+    <color name="color_notification_title">@android:color/white</color>
+    <color name="color_notification_text">#009688</color>
+    <color name="color_notification_button_focus">#9A9C9E</color>
+    <color name="color_notification_hint">#DF1D1D</color>
+    
+    <!-- weather -->
+    <color name="color_text">#adffffff</color>
+</resources>

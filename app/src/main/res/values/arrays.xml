@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrays_week">
+        <item>@string/week_sun</item>
+        <item>@string/week_mon</item>
+        <item>@string/week_tue</item>
+        <item>@string/week_wed</item>
+        <item>@string/week_thu</item>
+        <item>@string/week_fri</item>
+        <item>@string/week_sat</item>
+    </array>
+</resources>

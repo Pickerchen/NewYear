@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">پرتاب ابزار</string>
+    <string name="add_app_failed">افزودن برنامه نتواند!</string>
+    <string name="open_app_failed">برنامه را شکست دادید</string>
+    <string name="week_sun">یکشنبه</string>
+    <string name="week_mon">دوشنبه</string>
+    <string name="week_tue">سهشنبه</string>
+    <string name="week_wed">چهار شنبه</string>
+    <string name="week_thu">پنج شنبه</string>
+    <string name="week_fri">جمعه</string>
+    <string name="week_sat">شنبه</string>
+    <string name="loading">بارگیری ...</string>
+    <string name="status_connecting">در حال اتصال</string>
+    <string name="camera">دوربین</string>
+    <string name="scene">صحنه</string>
+    <string name="devices">دستگاه ها</string>
+    <string name="sensor">سنسور</string>
+    <string name="more_devices">دستگاه های بیشتر</string>
+    <string name="door_sensor">سنسور درب</string>
+    <string name="motion_sensor">حسگر حرکتی</string>
+    <string name="light_device">سبک</string>
+    <string name="outlet_device">پریز</string>
+    <string name="zha_sensor">ZHA سنسور</string>
+    <string name="smoke_sensor">سنسور دود</string>
+    <string name="gas_sensor">سنسور گاز</string>
+    <string name="co_sensor">CO سنسور</string>
+    <string name="shock_sensor">سنسور شوک</string>
+    <string name="leak_sensor">سنسور نشت</string>
+    <string name="security_control_sensor">سنسور کنترل امنیت</string>
+    <string name="emergency_sensor">سنسور اضطراری</string>
+    <string name="alertor_sensor">سنسور آلرتر</string>
+    <string name="humiture_sensor">Tem Humid Sensor</string>
+    <string name="unknown_device">ناشناخته</string>
+    <string name="thermostat_sensor">حسگر ترموستات</string>
+    <!--设备状态语义化-->
+    <string name="unknown_status">وضعیت نامشخص</string>
+    <string name="device_added">دستگاه اضافه شده است</string>
+
+
+    <string name="open">باز کن</string>
+    <string name="close">نزدیک</string>
+
+    <string name="on">در بر</string>
+    <string name="off">خاموش</string>
+
+
+    <string name="door_open">در را باز کن</string>
+    <string name="door_close">در را ببند</string>
+    <string name="thing_move">چیزی حرکت کن</string>
+    <string name="sensor_trigger">ماشه</string>
+    <string name="sensor_get_right">درست بگیری</string>
+    <string name="Curtain">پرده</string>
+    <string name="pop_Combustible_gas">گاز قابل احتراق</string>
+    <string name="pop_leak">نشت</string>
+    <string name="Lock">قفل کردن</string>
+    <string name="Motion">حرکت</string>
+    <string name="Outlet">پریز</string>
+    <string name="Siren">آژیر</string>
+    <string name="Co">CO</string>
+    <string name="Smoke">دود</string>
+    <string name="Tem_Humid">Tem Humid</string>
+    <string name="Thermostat">ترموستات</string>
+    <string name="Curtain_des">پرده</string>
+    <string name="pop_Gombustible_gas_des">آشکارساز گاز قابل احتراق گازها را در یک منطقه تشخیص می دهد، اغلب به عنوان بخشی از یک سیستم ایمنی.</string>
+    <string name="pop_leak_des">مانیتور وضعیت نشت آب.</string>
+    <string name="Lock_des">قفل کردن</string>
+    <string name="Motion_des">سنسور حرکتی اشعه های متحرک، به ویژه افراد را تشخیص می دهد.</string>
+    <string name="Outlet_des">می تواند از راه دور روشن / خاموش کنترل شود.</string>
+    <string name="Siren_des">زنگ زدن زمانی که رویدادها باعث شد.</string>
+    <string name="Co_des">حضور مونوکسید کربن (CO) را برای جلوگیری از مسمومیت مونوکسید کربن شناسایی می کند.</string>
+    <string name="Smoke_des">آشکارساز دودست یک وسیله است که حس می کند دود، معمولا به عنوان یک شاخص آتش است.</string>
+    <string name="Tem_Humid_des">دمای محیط و رطوبت را تعیین می کند.</string>
+    <string name="Thermostat_des">دمای سیستم را احساس می کند و دمای سیستم را در نزدیکی یک نقطه تنظیم دلخواه حفظ می کند.</string>
+    <string name="door_sensor_des">سوئیچ سنسور درب ورودی را شناسایی می کند که از خانه یا دفتر شما محافظت می کند، آیا شما در داخل یا خارج هستید.</string>
+    <string name="light_device_des">از راه دور روشن / خاموش، روشنایی و رنگ کنترل شده است.</string>
+    <string name="shock_sensor_des">سنسور شوک برای نشان دادن اینکه آستانه شوک مشخص شده رخ داده است استفاده می شود.</string>
+    <string name="warning">هشدار</string>
+    <string name="def_room">اتاق پیش فرض</string>
+    <string name="apps">برنامه ها</string>
+    <string name="string_add_dev">افزودن دستگاه</string>
+    <string name="motion">حرکت</string>
+    <string name="Tampered">خراب شده</string>
+    <string name="Normal">طبیعی</string>
+    <string name="Shock">بهت زده</string>
+    <string name="Online">آنلاین</string>
+    <string name="Offline">آفلاین</string>
+    <string name="add_security_control_sensor">اضافه کردن کنترل از راه دور امنیتی برای موفقیت</string>
+    <string name="more_devices_long">دستگاه های دیگر در بازار</string>
+    <string name="no_ip_camera_installed">هیچ WiFi / IP دوربین نصب نشده است</string>
+    <string name="devices_long">دستگاه های نصب شده</string>
+    <string name="add_devices">دستگاه ها</string>
+    <string name="relay">رله</string>
+    <string name="scan_devices_tips">اسکن کردن دستگاه های جدید</string>
+    <string name="scene_title">صحنه اتوماسیون خانگی</string>
+    <string name="show_less">نمایش کمتر</string>
+    <string name="show_more">بیشتر نشان بده، اطلاعات بیشتر</string>
+    <string name="unknown">آفلاین</string>
+    <string name="string_standby">Standby</string>
+    <string name="string_current">Current\t</string>
+
+
+</resources>

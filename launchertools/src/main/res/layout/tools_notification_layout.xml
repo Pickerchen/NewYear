@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2016-12-21] -->
+<com.sen5.launchertools.widget.ScaleItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="@dimen/dimen_tools_item_size"
+        android:layout_height="@dimen/dimen_tools_item_size"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img_tools_item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_notification_white"/>
+
+        <View
+            android:id="@+id/v_notification_hint"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="top|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_notification_hint"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+    <com.sen5.launchertools.widget.Sen5TextView
+        android:id="@+id/tv_tools_item_name"
+        android:layout_width="@dimen/dimen_tools_item_size"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/tools_notification_center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dimen_tools_item_text_size"
+        android:visibility="gone"/>
+
+</com.sen5.launchertools.widget.ScaleItemView>

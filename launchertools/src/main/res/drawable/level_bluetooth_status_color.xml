@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2017-01-12] For udpate bluetooth status -->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/ic_bluetooth_break_color"
+        android:maxLevel="0"/>
+    <item
+        android:drawable="@drawable/ic_bluetooth_color"
+        android:maxLevel="1"/>
+
+</level-list>

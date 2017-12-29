@@ -1,0 +1,86 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+//        applicationId "com.sen5.smartlifebox"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 2017082703
+        versionName "1.4.2.38"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    //签名 注意signingConfigs的定义要放在调用前·
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+
+        release {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            debuggable true
+            versionNameSuffix ".debug"
+        }
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //开启混淆
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled true
+            //移除无用的resource文件
+            shrinkResources false //
+            //指定多个混淆文件，前一部分代表系统默认的android程序的混淆文件，
+            //该文件已经包含了基本的混淆声明，后部分是自己定义的混淆文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //签名
+            signingConfig signingConfigs.release
+            debuggable false
+        }
+    }
+}
+
+//把app module的iml文件中的android sdk引用放到检索顺序的最后面，这一步在编译sdk时可以不需要，
+// 但在编写代码是要使能找framework.jar中的方法，需要加上
+//task pushDownJdkDependency {
+//    def imlFile = file("app.iml")
+//    try {
+//        def parsedXml = (new XmlParser()).parse(imlFile)
+//        def jdkNode = parsedXml.component[1].orderEntry.find { it.'@type' == 'jdk' }
+//
+//        parsedXml.component[1].remove(jdkNode)
+//        //这里是target sdk版本，只需要改数字就行
+//        new Node(parsedXml.component[1], 'orderEntry', ['type': 'jdk', 'jdkName': "Android API 24 Platform", 'jdkType': 'Android SDK'])
+//        def writer = new StringWriter()
+//        new XmlNodePrinter(new PrintWriter(writer)).print(parsedXml)
+//        imlFile.text = writer.toString()
+//    } catch (FileNotFoundException e) {
+//        // nop, iml not found
+//    }
+//}
+
+dependencies {
+    provided files('libs/framework.jar')
+    provided files('libs/framework_one.jar')
+
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'org.dom4j:dom4j:2.0.0'
+    compile project(':floatwindow')
+
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.2'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.2'
+}

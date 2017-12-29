@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إبكاميرا تعويم النافذة</string>
+    <string name="hello_world">مرحبا بالعالم!</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="system_about">حول</string>
+    <!-- new -->
+    <string name="switch_left">تبديل اليسار</string>
+    <string name="switch_right">التبديل إلى اليمين</string>
+    <string name="full_screen">تكبير الشاشة</string>
+    <string name="close">قريب</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="status_connecting">اتصالات</string>
+    <string name="status_online">عبر الانترنت</string>
+    <string name="status_connect_error">خطأ</string>
+    <string name="status_connect_timeout">الوقت</string>
+    <string name="status_break_off">اقطع</string>
+    <string name="status_off_line">غير متصل على الانترنت</string>
+    <string name="status_user_error">خطأ المستخدم</string>
+    <string name="status_error_id">بطاقة التعريف غير صالحة</string>
+    <string name="no_camera">لا كاميرا</string>
+</resources>

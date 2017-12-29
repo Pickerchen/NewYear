@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="@dimen/dimen_198"
+        android:background="@color/bg_black_ap_5"
+        android:padding="20dp">
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_dev_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_dev_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dev_name"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="18dp" />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/tv_blue"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginTop="@dimen/N_eighty"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/thirty"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:textSize="38px"
+            android:layout_width="@dimen/OSS"
+            android:layout_height="wrap_content"
+            android:textColor="@color/record_title"
+            android:text="@string/start_time"
+            />
+
+        <RelativeLayout
+            android:layout_width="@dimen/FF"
+            android:layout_height="@dimen/fourtyFive"
+            android:id="@+id/record_setting_start_time_rl"
+            android:layout_marginLeft="@dimen/fiftyFive"
+            android:background="@drawable/record_setting_spinner_selector"
+            android:gravity="center_vertical"
+            android:focusable="true"
+            >
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_setting_start_time_tv"
+                android:textSize="38px"
+                android:textColor="@color/record_content"
+                android:layout_marginLeft="@dimen/thirty"
+                />
+
+            <ImageView
+                android:paddingTop="@dimen/ten"
+                android:paddingBottom="@dimen/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/record_setting_start_time_iv"
+                android:src="@drawable/record_type_right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fifteen"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/thirty"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:textSize="38px"
+            android:layout_width="@dimen/OSS"
+            android:layout_height="wrap_content"
+            android:textColor="@color/record_title"
+            android:text="@string/end_time"
+            />
+
+        <RelativeLayout
+            android:layout_width="@dimen/FF"
+            android:layout_height="@dimen/fourtyFive"
+            android:id="@+id/record_setting_end_time_rl"
+            android:layout_marginLeft="@dimen/fiftyFive"
+            android:background="@drawable/record_setting_spinner_selector"
+            android:gravity="center_vertical"
+            android:focusable="true"
+            >
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_setting_end_time_tv"
+                android:textSize="38px"
+                android:textColor="@color/record_content"
+                android:layout_marginLeft="@dimen/thirty"
+                />
+
+            <ImageView
+                android:paddingTop="@dimen/ten"
+                android:paddingBottom="@dimen/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/record_setting_end_time_iv"
+                android:src="@drawable/record_type_right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fifteen"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/thirty"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:textSize="38px"
+            android:layout_width="@dimen/OSS"
+            android:layout_height="wrap_content"
+            android:textColor="@color/record_title"
+            android:text="@string/record_setting_Repeat"
+            />
+
+        <RelativeLayout
+            android:layout_width="@dimen/FF"
+            android:layout_height="@dimen/fourtyFive"
+            android:id="@+id/record_setting_repeat_rl"
+            android:layout_marginLeft="@dimen/fiftyFive"
+            android:background="@drawable/record_setting_spinner_selector"
+            android:gravity="center_vertical"
+            android:focusable="true"
+            >
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_setting_repeat_tv"
+                android:text="@string/everyday"
+                android:textSize="38px"
+                android:textColor="@color/record_content"
+                android:layout_marginLeft="@dimen/thirty"
+                />
+
+            <ImageView
+                android:paddingTop="@dimen/ten"
+                android:paddingBottom="@dimen/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/record_setting_repeat_iv"
+                android:src="@drawable/record_type_right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fifteen"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

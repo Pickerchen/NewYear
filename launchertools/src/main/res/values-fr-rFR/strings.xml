@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Outils de lancement</string>
+    <!-- [Sen5-Jesseyao-2016-12-07] For GeneralUtils -->
+    <string name="cannot_lunch_bluetooth_settings">L\'appareil ne prend pas en charge Bluetooth!</string>
+    <string name="cant_find_backuprestore_apk">Aucune application trouvée!</string>
+    <string name="best_memory_status">A été nettoyé au mieux</string>
+    <string name="release_memory">Libérer la mémoire pour</string>
+    <string name="currunt_memory">La mémoire actuelle disponible est</string>
+    <string name="clear_memory">Mémoire claire</string>
+    <string name="tools_skin">Peau</string>
+    <string name="tools_settings">paramètres</string>
+    <string name="tools_standby">Etre prêt</string>
+    <string name="tools_reboot">Redémarrer</string>
+    <string name="tools_usb">USB</string>
+    <string name="tools_sdcard">SD Card</string>
+    <string name="tools_filebrowser">Des dossiers</string>
+    <string name="tools_network">Réseau</string>
+    <string name="tools_bluetooth">Bluetooth</string>
+    <string name="tools_clearup">Tout effacer</string>
+    <string name="tools_secqer_settings">SecQre Paramètres</string>
+    <string name="tools_backup_restore">sauvegarde</string>
+    <string name="tools_speed_test">Test de vitesse</string>
+    <string name="tools_notification_center">de notification!</string>
+    <string name="tools_download_center">Télécharger</string>
+    <string name="no_bluetooth">L\'appareil ne prend pas en charge Bluetooth!</string>
+    <string name="no_backuprestore">Le périphérique ne supporte pas la sauvegarde et la restauration!</string>
+    <string name="no_wallpaper_settings">Le fond d\'écran personnalisé n\'est pas pris en charge!</string>
+    <string name="notification_center">Notifications</string>
+    <string name="no_notification">Pas de notification!</string>
+    <string name="clear_all_notification">Effacer les paramètres par défaut</string>
+    <string name="dialog_reboot_title">Redémarrer</string>
+    <string name="dialog_reboot_message">Assurez-vous de mettre en veille?</string>
+    <string name="dialog_standby_title">Etre prêt</string>
+    <string name="dialog_standby_message">Etre prêt</string>
+    <!-- weekday -->
+    <string name="sunday">dimanche</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">samedi</string>
+    <!--  For weather and time -->
+    <string name="unknow_location">inconnu</string>
+    <string name="unknow_temp">U&#186;</string>
+    <string name="unknow_weather_condition">Condition inconnue</string>
+    <string name="weather_dew">point de rosée</string>
+    <string name="weather_hum">Humidité</string>
+    <string name="weather_uv">l\'indice UV</string>
+    <string name="weather_wind">Vent</string>
+
+</resources>

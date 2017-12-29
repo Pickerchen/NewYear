@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2016-12-21] -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_notification_background">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_notification_title_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:text="@string/notification_center"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/clear_all_notifications"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/selector_notification_button_background"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/clear_all_notification"
+            android:textAllCaps="false"
+            android:textColor="@color/color_notification_text"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <com.sen5.launchertools.widget.SlideRemoveListView
+        android:id="@+id/lv_notification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_title"
+        android:layout_margin="10dp"
+        android:dividerHeight="1dp"
+        android:layoutAnimation="@anim/anim_notification_listview"
+        android:listSelector="@drawable/selector_notification_item"/>
+
+    <Button
+        android:id="@+id/start_receive_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dp"
+        android:text="@string/start_receive_notification"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/stop_receive_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="4dp"
+        android:text="@string/stop_receive_notification"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/current_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_receive_notification"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:text="@string/current_notification"
+        android:textAllCaps="false"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_no_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/selector_notification_button_background"
+        android:focusable="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/no_notification"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

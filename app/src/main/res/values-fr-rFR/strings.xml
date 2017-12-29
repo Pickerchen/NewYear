@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">Outils de lancement</string>
+    <string name="add_app_failed">Échec d\'ajout d\'application!</string>
+    <string name="open_app_failed">Échec d\'ouvrir une application</string>
+    <string name="week_sun">dimanche</string>
+    <string name="week_mon">Lundi</string>
+    <string name="week_tue">Mardi</string>
+    <string name="week_wed">Mercredi</string>
+    <string name="week_thu">Jeudi</string>
+    <string name="week_fri">Vendredi</string>
+    <string name="week_sat">samedi</string>
+    <string name="loading">Chargement en cours ...</string>
+    <string name="status_connecting">Connexion en cours</string>
+    <string name="camera">Caméra</string>
+    <string name="scene">Scène</string>
+    <string name="devices">Dispositifs</string>
+    <string name="sensor">Capteur</string>
+    <string name="more_devices">Plus d\'appareils</string>
+    <string name="door_sensor">Capteur de porte</string>
+    <string name="motion_sensor">Capteur de mouvement</string>
+    <string name="light_device">Lumière</string>
+    <string name="outlet_device">Sortie</string>
+    <string name="zha_sensor">ZHA Capteur</string>
+    <string name="smoke_sensor">Détecteur de fumée</string>
+    <string name="gas_sensor">Capteur de gaz</string>
+    <string name="co_sensor">CO Capteur</string>
+    <string name="shock_sensor">Capteur de choc</string>
+    <string name="leak_sensor">Capteur de fuite</string>
+    <string name="security_control_sensor">Capteur de contrôle de sécurité</string>
+    <string name="emergency_sensor">Capteur d\'urgence</string>
+    <string name="alertor_sensor">Alertor Sensor</string>
+    <string name="humiture_sensor">Tem Humid Sensor</string>
+    <string name="unknown_device">Périphérique inconnu</string>
+    <string name="thermostat_sensor">Capteur de thermostat</string>
+    <!--设备状态语义化-->
+    <string name="unknown_status">Statut inconnu</string>
+    <string name="device_added">Appareil ajouté</string>
+
+
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+
+    <string name="on">Sur</string>
+    <string name="off">de</string>
+
+
+    <string name="door_open">ouvre la porte</string>
+    <string name="door_close">ferme la porte</string>
+    <string name="thing_move">Quelque chose se déplace</string>
+    <string name="sensor_trigger">gâchette</string>
+    <string name="sensor_get_right">Obtenir droit</string>
+    <string name="Curtain">Rideau</string>
+    <string name="pop_Combustible_gas">Gaz combustible</string>
+    <string name="pop_leak">Fuite</string>
+    <string name="Lock">bloquer</string>
+    <string name="Motion">de mouvement</string>
+    <string name="Outlet">Sortie</string>
+    <string name="Siren">Sirène</string>
+    <string name="Co">CO</string>
+    <string name="Smoke">Fumée</string>
+    <string name="Tem_Humid">Tem Humid</string>
+    <string name="Thermostat">Thermostat</string>
+    <string name="Curtain_des">Rideau</string>
+    <string name="pop_Gombustible_gas_des">Le détecteur de gaz combustible détecte la présence de gaz dans une zone, souvent dans le cadre d\'un système de sécurité.</string>
+    <string name="pop_leak_des">Surveillez la situation de fuite d\'eau.</string>
+    <string name="Lock_des">bloquer</string>
+    <string name="Motion_des">Le capteur de mouvement détecte les objets en mouvement, en particulier les personnes.</string>
+    <string name="Outlet_des">Peut être contrôlé / désactivé à distance.</string>
+    <string name="Siren_des">Effectuez une alarme lorsque les événements ont déclenché.</string>
+    <string name="Co_des">Détecte la présence de gaz de monoxyde de carbone (CO) afin d\'éviter l\'empoisonnement au monoxyde de carbone.</string>
+    <string name="Smoke_des">Le détecteur de fumée est un dispositif qui détecte la fumée, typiquement comme indicateur d\'incendie</string>
+    <string name="Tem_Humid_des">Détecte la température et l\'humidité de l\'intérieur.</string>
+    <string name="Thermostat_des">Sente la température d\'un système et maintient la température du système près d\'un point de consigne souhaité.</string>
+    <string name="door_sensor_des">Le commutateur du capteur de porte détecte l\'entrée protégeant votre maison ou votre bureau, que vous soyez ou non.</string>
+    <string name="light_device_des">À distance, marche / arrêt, luminosité et couleur contrôlée.</string>
+    <string name="shock_sensor_des">Le seuil de choc spécifié s\'est produit.</string>
+    <string name="warning">avertissement</string>
+    <string name="def_room">Chambre par défaut</string>
+    <string name="apps">Apps</string>
+    <string name="string_add_dev">Ajout d\'un périphérique</string>
+    <string name="motion">Mouvement</string>
+    <string name="Tampered">Tampered</string>
+    <string name="Normal">Normal</string>
+    <string name="Shock">Choqué</string>
+    <string name="Online">En ligne</string>
+    <string name="Offline">Hors ligne</string>
+    <string name="add_security_control_sensor">Ajouter la télécommande de sécurité pour réussir</string>
+    <string name="more_devices_long">Autres appareils dans le marché</string>
+    <string name="no_ip_camera_installed">Pas de caméra Wifi / IP installée</string>
+    <string name="devices_long">Dispositifs installés</string>
+    <string name="add_devices">Ajouter des périphériques</string>
+    <string name="relay">Relais</string>
+    <string name="scan_devices_tips">Numérisation de nouveaux périphériques</string>
+    <string name="scene_title">Scène d\\\'automatisation de la maison</string>
+    <string name="show_less">Montre moins</string>
+    <string name="show_more">Montre plus</string>
+    <string name="unknown">Hors ligne</string>
+    <string name="string_standby">Standby</string>
+    <string name="string_current">Current\t</string>
+
+
+</resources>

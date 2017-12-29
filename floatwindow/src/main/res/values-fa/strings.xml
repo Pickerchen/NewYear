@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IpCamera Float Window</string>
+    <string name="hello_world">سلام دنیا!</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="system_about">در باره</string>
+    <!-- new -->
+    <string name="switch_left">سوئیچ چپ</string>
+    <string name="switch_right">سوئیچ راست</string>
+    <string name="full_screen">تمام صفحه</string>
+    <string name="close">نزدیک</string>
+    <string name="loading">بارگیری ...</string>
+    <string name="status_connecting">وصل کردن</string>
+    <string name="status_online">آنلاین</string>
+    <string name="status_connect_error">خطا</string>
+    <string name="status_connect_timeout">زمان</string>
+    <string name="status_off_line">آفلاین</string>
+    <string name="status_break_off">شکستن</string>
+    <string name="status_user_error">خطای کاربر</string>
+    <string name="status_error_id">شناسه نامعتبر</string>
+    <string name="no_camera">بدون دوربین</string>
+</resources>

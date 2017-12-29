@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingTop="40dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/dialog_reminder_bg"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/dialog_ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:textSize="46px"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="i"
+            android:textColor="@color/tv_white"
+            android:background="@drawable/dialog_reminder_icon"
+            />
+        <TextView
+            android:textSize="46px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black_color"
+            android:text="@string/record_dialog_reminder_title"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="32px"
+        android:textColor="@color/black_color"
+        android:id="@+id/dialog_tv_content"
+        android:layout_below="@id/dialog_ll_title"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/record_dialog_reminder_content"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/dialog_tv_content"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_ll_deviceInfo_hint"
+        >
+
+        <TextView
+            android:textSize="26px"
+            android:textColor="@color/dialog_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_item_name"
+            />
+        <TextView
+            android:textSize="26px"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/dialog_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_item_recordingtype"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/dialog_tv_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/dialog_ll_deviceInfo_hint"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_ll_deviceInfo"
+        >
+
+        <TextView
+            android:textSize="26px"
+            android:textColor="@color/dialog_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_item_name"
+            />
+        <TextView
+            android:textSize="26px"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/dialog_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_item_recordingtype"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/dialog_btn_cancel"
+            android:textColor="@color/dialog_btn_text_selector"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:background="@drawable/dialog_btn"
+            android:text="@string/record_dialog_btn_cancel"
+            android:textSize="26px"
+            />
+
+        <Button
+            android:gravity="center"
+            android:textSize="26px"
+            android:id="@+id/dialog_btn_stop"
+            android:layout_marginLeft="8dp"
+            android:text="@string/record_dialog_btn_stop"
+            android:textColor="@color/dialog_btn_text_selector"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:background="@drawable/dialog_btn"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

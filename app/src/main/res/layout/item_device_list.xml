@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_root"
+        android:layout_width="@dimen/dimen_94"
+        android:layout_height="@dimen/dimen_94"
+        android:background="@drawable/selector_bg_blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_device_status"
+            android:layout_width="56px"
+            android:layout_height="56px"
+            tools:src="@drawable/ic_outlet_close"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="-5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_device_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/unknown"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white_ap_40"
+            android:textSize="16dp" />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below="@id/tv_device_status"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="-4dp"
+            android:hint="@string/def_room"
+            android:textColor="@color/white_ap_40"
+            android:textColorHint="@color/white_ap_40"
+            android:textSize="12dp" />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_dev_name"
+            android:layout_below="@id/tv_room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:layout_marginTop="-2dp"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/white_ap_40"
+            android:textColorHint="@color/white_ap_40"
+            android:textSize="12dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_low_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_low_power"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

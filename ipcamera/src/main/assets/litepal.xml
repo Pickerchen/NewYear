@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="record" ></dbname>
+
+    <version value="13" ></version>
+
+    <list>
+        <mapping class = "com.ipcamerasen5.record.db.IpCamDevice"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.ClockPath"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.RecordClock"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.SensorPath"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.SecondPath"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.Clock"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.RoundPath"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.VideoForMemory"></mapping>
+        <mapping class="com.ipcamerasen5.record.db.DynamicPath"></mapping>
+    </list>
+</litepal>

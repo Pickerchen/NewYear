@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:id="@+id/hScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_root_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:paddingLeft="43dp">
+
+            <include
+                android:id="@+id/ll_dev"
+                layout="@layout/layout_device_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                ></include>
+
+            <com.sen5.secure.launcher.widget.ScaleAbleView
+                android:id="@+id/btn_add_devices"
+                style="@style/AddDevicesStyle"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="24dp"
+                android:drawableTop="@drawable/ic_add_devices"
+                android:paddingTop="15dp"
+
+                android:layout_marginLeft="10dp"
+                android:text="@string/add_devices" />
+
+
+            <include
+                android:id="@+id/ll_scene"
+                layout="@layout/layout_device_scene"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></include>
+
+
+            <include
+                android:id="@+id/ll_more_dev"
+                layout="@layout/layout_device_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"></include>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="@dimen/dimen_198"></View>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

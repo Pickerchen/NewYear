@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            //注意：windows中这里的路径是这样的app\\libs\\framework.jar，不能是"/". linux中是"/"
+            options.compilerArgs.add('-Xbootclasspath/p:app\\libs\\framework_one.jar')//这里是让自己的jar包优先于系统sdk的关键。
+            options.compilerArgs.add('-Xbootclasspath/p:app\\libs\\framework.jar')//这里是让自己的jar包优先于系统sdk的关键。
+//            options.compilerArgs.add('-Xbootclasspath/p:launchertools\\libs\\framework_905x.jar')//这里是让自己的jar包优先于系统sdk的关键。
+            //-Xbootclasspath:bootclasspath   让jvm从指定的路径中加载bootclass，用来替换jdk的rt.jar。一般不会用到。
+            //-Xbootclasspath/a:path  被指定的文件追加到默认的bootstrap路径中。
+            //-Xbootclasspath/p:path  让jvm优先于默认的bootstrap去加载path中指定的class
+        }
+    }
+    repositories {
+        jcenter()
+        google()
+    }
+
+
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,8 @@
+<!-- [Sen5-Jesseyao-2016-12-21] -->
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fg_tools"
+    android:name="com.sen5.launchertools.ToolsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout="@layout/tools_layout" />

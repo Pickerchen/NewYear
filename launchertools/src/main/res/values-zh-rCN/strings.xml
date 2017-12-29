@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tools_settings"> 设置</string>
+    <string name="tools_standby"> 待机</string>
+    <string name="tools_reboot"> 重启</string>
+    <string name="tools_usb"> USB</string>
+    <string name="tools_sdcard"> SD卡</string>
+    <string name="tools_filebrowser">文件夹</string>
+    <string name="tools_network"> 网络</string>
+    <string name="tools_bluetooth"> 蓝牙</string>
+    <string name="tools_clearup">清理缓存</string>
+    <string name="tools_secqer_settings">secQre设置</string>
+    <string name="tools_backup_restore">备份</string>
+    <string name="tools_speed_test">网速测试</string>
+    <string name="tools_notification_center">通知</string>
+    <string name="tools_download_center">下载</string>
+    <string name="tools_skin"> 壁纸</string>
+</resources>

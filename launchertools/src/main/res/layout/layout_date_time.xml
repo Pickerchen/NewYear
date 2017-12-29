@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [Sen5-Jesseyao-2017-01-12] For show date and time -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+    <com.sen5.launchertools.weather.TextClock
+        android:id="@+id/txt_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_text"
+        android:textSize="36sp"/>
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txt_clock"
+        android:background="@color/color_text"/>
+
+    <com.sen5.launchertools.widget.Sen5TextView
+        android:id="@+id/txt_weekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_date"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/v_divider"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_text"
+        android:textSize="18sp"/>
+
+    <com.sen5.launchertools.widget.Sen5TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/v_divider"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_text"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

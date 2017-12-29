@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <com.sen5.secure.launcher.widget.Sen5TextView
+        android:id="@+id/tv_scene"
+        style="@style/ScaleAbleViewStyle"
+        android:layout_marginTop="0dp"
+        android:drawableTop="@drawable/selector_scene_new"
+        android:ellipsize="marquee"
+        android:focusable="false"
+        android:background="@drawable/selector_bg_blue"
+        android:gravity="center"
+        android:marqueeRepeatLimit="3"
+        android:singleLine="true" />
+</LinearLayout>

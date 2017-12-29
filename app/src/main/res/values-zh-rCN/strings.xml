@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="add_app_failed">无法添加应用</string>
+    <string name="open_app_failed">无法打开应用</string>
+
+    <string name="week_sun">星期天</string>
+    <string name="week_mon">星期一</string>
+    <string name="week_tue">星期一</string>
+    <string name="week_wed">星期三</string>
+    <string name="week_thu">星期四</string>
+    <string name="week_fri">星期五</string>
+    <string name="week_sat">星期六</string>
+    <string name="loading">加载中...</string>
+    <string name="status_connecting">连接中</string>
+    <string name="camera">摄像头</string>
+    <string name="scene">场景</string>
+        <string name="scene_title">场景</string>
+  
+    <string name="devices">设备</string>
+    <string name="devices_long">设备</string>
+
+    <string name="sensor">传感器</string>
+    <string name="more_devices">更多设备</string>
+    <string name="more_devices_long">更多设备</string>
+
+
+    <string name="door_sensor">门磁</string>
+    <string name="motion_sensor">移动传感器</string>
+    <string name="light_device">灯</string>
+    <string name="relay">继电器</string>
+    <string name="outlet_device">智能插座</string>
+    <string name="zha_sensor">ZHA传感器</string>
+    <string name="smoke_sensor">烟雾传感器</string>
+    <string name="gas_sensor">气体传感器</string>
+    <string name="co_sensor">CO传感器</string>
+    <string name="shock_sensor">冲击传感器</string>
+    <string name="leak_sensor">水浸传感器</string>
+    <string name="security_control_sensor">安全控制传感器</string>
+    <string name="emergency_sensor">紧急按钮</string>
+    <string name="alertor_sensor"> 报警器</string>
+    <string name="humiture_sensor">温湿度传感器</string>
+    <string name="unknown_device">其他设备</string>
+    <string name="thermostat_sensor">温控器</string>
+
+    <!--设备状态语义化-->
+    <string name="unknown_status">状态未知</string>
+    <string name="device_added">已添加设备</string>
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+
+    <string name="door_open">开门</string>
+    <string name="door_close">关门</string>
+    <string name="thing_move">something move</string>
+    <string name="sensor_trigger">触发</string>
+    <string name="sensor_get_right">get right</string>
+    <string name="Curtain">Curtain</string>
+    <string name="pop_Combustible_gas">可燃气体</string>
+    <string name="pop_leak">水浸</string>
+    <string name="Lock">Lock</string>
+    <string name="Motion">移动传感器</string>
+    <string name="Outlet">智能插座</string>
+    <string name="Siren">报警器</string>
+    <string name="Co">一氧化碳</string>
+    <string name="Smoke">烟雾</string>
+    <string name="Tem_Humid">温湿度</string>
+    <string name="Thermostat">温控器</string>
+
+
+    <string name="Curtain_des">Curtain</string>
+    <string name="pop_Gombustible_gas_des">可燃气体探测器可检测一定范围内的可燃气含量。</string>
+    <string name="pop_leak_des">监测漏水状况</string>
+    <string name="Lock_des">Lock</string>
+    <string name="Motion_des">移动侦测传感器，可以检测有无运动物体经过。</string>
+    <string name="Outlet_des">可远程控制的插座。</string>
+    <string name="Siren_des">触发传感器时，发出警报。</string>
+    <string name="Co_des">监测一氧化碳含量。</string>
+    <string name="Smoke_des">烟雾传感器可感知烟雾。</string>
+    <string name="Tem_Humid_des">监测室内温湿度。</string>
+    <string name="Thermostat_des">温控传感器用来调节温度。</string>
+    <string name="door_sensor_des">门磁传感器用来检测门的开关状态。.</string>
+    <string name="light_device_des">可设置灯的开/关、调节亮度、控制颜色。</string>
+    <string name="shock_sensor_des">震动传感器用于指示是否发生一定强度范围内的震动。</string>
+    <string name="warning">警报</string>
+    <string name="unknown">离线</string>
+    <string name="def_room">默认房间</string>
+    <string name="apps">应用</string>
+    <string name="string_add_dev">正在添加设备</string>
+    <string name="motion">触发</string>
+    <string name="Tampered">已拆除</string>
+
+    <string name="Normal">正常</string>
+    <string name="Shock">震动</string>
+    <string name="Online">在线</string>
+    <string name="Offline">离线</string>
+    <string name="add_security_control_sensor">添加安全控制遥控器成功</string>
+    <string name="scan_devices_tips">正在寻找您的新设备</string>
+    <string name="add_devices">添加设备</string>
+    <string name="no_ip_camera_installed">未安装摄像头</string>
+    <string name="show_more">展开</string>
+    <string name="show_less">隐藏</string>
+    <string name="string_standby">待机</string>
+    <string name="string_current">当前温度\t</string>
+</resources>

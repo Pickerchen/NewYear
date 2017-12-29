@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أدوات قاذفة</string>
+    <!-- [Sen5-Jesseyao-2016-12-07] For GeneralUtils -->
+    <string name="cannot_lunch_bluetooth_settings">الجهاز لا يدعم بلوتوث!</string>
+    <string name="cant_find_backuprestore_apk">لم يتم العثور على أي تطبيق!</string>
+    <string name="best_memory_status">وقد تم تنظيفها إلى الأفضل</string>
+    <string name="release_memory">الافراج عن الذاكرة ل</string>
+    <string name="currunt_memory">الذاكرة الحالية المتاحة هي</string>
+    <string name="clear_memory">مسح الذاكرة</string>
+    <string name="tools_skin">بشرة</string>
+    <string name="tools_settings">إعدادات</string>
+    <string name="tools_standby">وضع الاستعداد</string>
+    <string name="tools_reboot">اعادة التشغيل</string>
+    <string name="tools_usb">USB</string>
+    <string name="tools_sdcard">SD Card</string>
+    <string name="tools_filebrowser">ملفات</string>
+    <string name="tools_network">شبكة</string>
+    <string name="tools_bluetooth">Bluetooth</string>
+    <string name="tools_clearup">امسح الكل</string>
+    <string name="tools_secqer_settings">secQre إعدادات</string>
+    <string name="tools_backup_restore">النسخ الاحتياطي</string>
+    <string name="tools_speed_test">اختبار السرعة</string>
+    <string name="tools_notification_center">إعلام!</string>
+    <string name="tools_download_center">تحميل</string>
+    <string name="no_bluetooth">الجهاز لا يدعم بلوتوث!</string>
+    <string name="no_backuprestore">الجهاز لا يدعم النسخ الاحتياطي واستعادة!</string>
+    <string name="no_wallpaper_settings">غير معتمد خلفية مخصصة!</string>
+    <string name="notification_center">إخطارات</string>
+    <string name="no_notification">أي إعلام!</string>
+    <string name="clear_all_notification">امسح الكل</string>
+    <string name="dialog_reboot_title">اعادة التشغيل</string>
+    <string name="dialog_reboot_message">متأكد من إعادة تشغيل؟</string>
+    <string name="dialog_standby_title">وضع الاستعداد</string>
+    <string name="dialog_standby_message">متأكد من الاستعداد؟</string>
+    <!-- weekday -->
+    <string name="sunday">الأحد</string>
+    <string name="monday">الإثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="thursday">الخميس</string>
+    <string name="friday">يوم الجمعة</string>
+    <string name="saturday">يوم السبت</string>
+    <!--  For weather and time -->
+    <string name="unknow_location">المجهول</string>
+    <string name="unknow_temp">U &amp; # 186؛</string>
+    <string name="unknow_weather_condition">حالة غير معروفة</string>
+    <string name="weather_dew">قطرة ندى</string>
+    <string name="weather_hum">رطوبة</string>
+    <string name="weather_uv">UVفهرس</string>
+    <string name="weather_wind">ينفخ</string>
+
+</resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_record"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_LTCamera"
+        >
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/record_content_bg"
+        >
+    <LinearLayout
+        android:layout_marginTop="@dimen/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ninety"
+        android:layout_marginLeft="@dimen/fifty"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/fourty"
+            android:layout_height="@dimen/fourty"
+            android:id="@+id/iv_record"
+            android:src="@mipmap/ic_record"
+            />
+        <TextView
+            android:textSize="48px"
+            android:textColor="@color/record_content"
+            android:layout_marginLeft="@dimen/twenty"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ipcamera_record_setting"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="@dimen/FHundred"
+                android:layout_height="@dimen/TTwenty"
+                android:id="@+id/record_setting_iv"
+                android:background="@mipmap/bg_camera_default_allscreen"
+                />
+
+            <TextView
+                android:textSize="48px"
+                android:text="Baby Room"
+                android:textColor="@color/tv_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_setting_tv_name"
+                android:layout_marginTop="@dimen/fourty"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/twentyFive"
+                    android:layout_height="@dimen/twentyFive"
+                    android:id="@+id/record_setting_iv_status"
+                    android:src="@drawable/record_ic_normal"
+                    />
+
+                <TextView
+                    android:textSize="38px"
+                    android:layout_marginLeft="@dimen/eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/record_setting_tv_status"
+                    android:text="OnLine"
+                    android:textColor="@color/record_setting_status"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/twenty"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:textSize="38px"
+                android:layout_marginLeft="@dimen/ten"
+                android:textColor="@color/record_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/record_setting_Recording_Type_Select"
+                />
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/fourty"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:id="@+id/record_setting_Recording_Type"
+                    android:textSize="38px"
+                    android:layout_width="@dimen/OSS"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/record_title"
+                    android:text="@string/record_setting_Recording_Type"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/FF"
+                    android:layout_height="@dimen/fourtyFive"
+                    android:id="@+id/record_setting_record_type_rl"
+                    android:layout_marginLeft="@dimen/fiftyFive"
+                    android:background="@drawable/record_setting_spinner_selector"
+                    android:gravity="center_vertical"
+                    android:focusable="true"
+                    >
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/record_setting_record_type_tv"
+                        android:text="Timed Recording"
+                        android:textSize="38px"
+                        android:textColor="@color/record_content"
+                        android:layout_marginLeft="@dimen/thirty"
+                        />
+
+                    <ImageView
+                        android:paddingTop="@dimen/ten"
+                        android:paddingBottom="@dimen/ten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/record_setting_record_type_iv"
+                        android:src="@drawable/record_type_down"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/fifteen"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/record_setting_line"
+                android:layout_below="@id/record_setting_Recording_Type"
+                android:layout_marginTop="@dimen/thirty"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/record_bg"
+                android:layout_marginRight="@dimen/thirty"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/OF"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:id="@+id/record_type_description_hint"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ten"
+                android:textSize="38px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/record_title"
+                android:text="@string/record_setting_Detail_Setting"
+                />
+
+                <TextView
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.1"
+                    android:paddingRight="@dimen/thirtyFive"
+                    android:layout_marginRight="@dimen/fifty"
+                    android:layout_marginLeft="@dimen/eighty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/record_content"
+                    android:id="@+id/record_type_description"
+                    android:textSize="38px"
+                    />
+            </LinearLayout>
+
+            <!--设置闹钟页面-->
+            <include
+                android:visibility="invisible"
+                android:id="@+id/include_clock_setting"
+                layout="@layout/include_record_setting_clock_setting"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_width="@dimen/FF"
+                android:layout_height="@dimen/fourtyFive"
+                android:id="@+id/record_setting_save_rl"
+                android:layout_marginLeft="@dimen/TFO"
+                android:background="@drawable/record_setting_spinner_selector"
+                android:focusable="true"
+                android:clickable="true"
+                >
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/record_setting_save_tv"
+                    android:text="@string/save_the_setting"
+                    android:textSize="38px"
+                    android:textColor="@color/record_content"
+                    android:layout_marginLeft="@dimen/thirty"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

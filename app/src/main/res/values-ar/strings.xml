@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">أدوات قاذفة</string>
+    <string name="add_app_failed">فشل تطبيق إضافة!</string>
+    <string name="open_app_failed">فشل في فتح التطبيق!</string>
+    <string name="week_sun">الأحد</string>
+    <string name="week_mon">الإثنين</string>
+    <string name="week_tue">الثلاثاء</string>
+    <string name="week_wed">الأربعاء</string>
+    <string name="week_thu">الخميس</string>
+    <string name="week_fri">يوم الجمعة</string>
+    <string name="week_sat">يوم السبت</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="status_connecting">توصيل</string>
+    <string name="camera">الة تصوير</string>
+    <string name="scene">مشهد</string>
+    <string name="devices">الأجهزة</string>
+    <string name="sensor">المستشعر</string>
+    <string name="more_devices">المزيد من الأجهزة</string>
+    <string name="door_sensor">باب الاستشعار</string>
+    <string name="motion_sensor">اقتراح   لمستشعر</string>
+    <string name="light_device">ضوء</string>
+    <string name="outlet_device">مخرج</string>
+    <string name="zha_sensor">ZHA المستشعر</string>
+    <string name="smoke_sensor">"استشعار الدخان
+"</string>
+    <string name="gas_sensor">استشعار الغاز</string>
+    <string name="co_sensor">CO المستشعر</string>
+    <string name="shock_sensor">صدمة الاستشعار</string>
+    <string name="leak_sensor">فتح</string>
+    <string name="security_control_sensor">استشعار مراقبة الأمن</string>
+    <string name="emergency_sensor">استشعار الطوارئ</string>
+    <string name="alertor_sensor">أليرتور الاستشعار</string>
+    <string name="humiture_sensor">تيم، رطب، شينسور</string>
+    <string name="unknown_device">جهاز غير معروف</string>
+    <string name="thermostat_sensor">ترموستات الاستشعار</string>
+    <!--设备状态语义化-->
+    <string name="unknown_status">غير معروف</string>
+    <string name="device_added">تمت إضافة الجهاز</string>
+
+
+    <string name="open">فتح</string>
+    <string name="close">قريب</string>
+
+    <string name="on">على</string>
+    <string name="off">إيقاف</string>
+
+
+    <string name="door_open">افتح الباب</string>
+    <string name="door_close">اغلق الباب</string>
+    <string name="thing_move">شيء تحرك</string>
+    <string name="sensor_trigger">اثار</string>
+    <string name="sensor_get_right">الحصول على حق</string>
+    <string name="Curtain">ستارة</string>
+    <string name="pop_Combustible_gas">غاز قابل للاحتراق</string>
+    <string name="pop_leak">تسرب</string>
+    <string name="Lock">قفل</string>
+    <string name="Motion">اقتراح</string>
+    <string name="Outlet">مخرج</string>
+    <string name="Siren">صفارة إنذار</string>
+    <string name="Co">CO</string>
+    <string name="Smoke">دخان</string>
+    <string name="Tem_Humid">تيم، رطب، شينسور</string>
+    <string name="Thermostat">منظم الحراره</string>
+    <string name="Curtain_des">ستارة</string>
+    <string name="pop_Gombustible_gas_des">يكشف كاشف الغاز القابل للاحتراق وجود الغازات في المنطقة، وغالبا ما يكون ذلك كجزء من نظام السلامة.</string>
+    <string name="pop_leak_des">مراقبة حالة تسرب المياه.</string>
+    <string name="Lock_des">قفل</string>
+    <string name="Motion_des">استشعار الحركة بالكشف عن الأجسام المتحركة، وخاصة الناس.</string>
+    <string name="Outlet_des">يمكن أن يكون عن بعد على / قبالة تسيطر عليها.</string>
+    <string name="Siren_des">التنبيه عندما أثار الأحداث.</string>
+    <string name="Co_des">يكتشف وجود غاز أول أكسيد الكربون (كو) من أجل منع التسمم بأول أكسيد الكربون.</string>
+    <string name="Smoke_des">كاشف الدخان هو جهاز يستشعر الدخان، وعادة ما يكون مؤشرا على الحريق.</string>
+    <string name="Tem_Humid_des">يكتشف درجة الحرارة والرطوبة في الأماكن المغلقة.</string>
+    <string name="Thermostat_des">يحسس درجة حرارة النظام والحفاظ على درجة حرارة النظام بالقرب من نقطة تحديد المطلوب.</string>
+    <string name="door_sensor_des">باب استشعار التبديل بالكشف عن دخول حماية منزلك أو مكتب سواء كنت داخل أو خارج.</string>
+    <string name="light_device_des">عن بعد على / قبالة، والسطوع واللون التي تسيطر عليها.</string>
+    <string name="shock_sensor_des">يستخدم جهاز استشعار الصدمة للإشارة إلى ما إذا كانت عتبة الصدمة المحددة قد حدثت أم لا.</string>
+    <string name="warning">تحذير</string>
+    <string name="def_room">افتراضي</string>
+    <string name="apps">تطبيقات بلدي</string>
+    <string name="string_add_dev">إضافة جهاز</string>
+    <string name="motion">اقتراح</string>
+    <string name="Tampered">العبث</string>
+    <string name="Normal">عادي</string>
+    <string name="Shock">صدمت</string>
+    <string name="Online">عبر الانترنت</string>
+    <string name="Offline">غير متصل على الانترنت</string>
+    <string name="add_security_control_sensor">إضافة عنصر التحكم عن بعد الأمن لتحقيق النجاح</string>
+    <string name="more_devices_long">الأجهزة الأخرى في السوق</string>
+    <string name="no_ip_camera_installed">لم يتم تثبيت واي فاي / كاميرا إب</string>
+    <string name="devices_long">تم تثبيت الأجهزة</string>
+    <string name="add_devices">إضافة أجهزة</string>
+    <string name="relay">تناوب</string>
+    <string name="scan_devices_tips">جار فحص الأجهزة الجديدة</string>
+    <string name="scene_title">أتمتة المنزل المشه</string>
+    <string name="show_less">إظهار أقل</string>
+    <string name="show_more">أظهر المزيد</string>
+    <string name="unknown">غير متصل على الانترنت</string>
+    <string name="string_standby">Standby</string>
+    <string name="string_current">Current\t</string>
+
+
+</resources>

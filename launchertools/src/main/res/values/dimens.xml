@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- tools bar -->
+    <dimen name="dimen_tools_item_size">52dp</dimen>
+    <dimen name="dimen_tools_bar_height">150dp</dimen>
+    <dimen name="dimen_clean_view_width">45dp</dimen>
+    <dimen name="dimen_bottom_padding">0dp</dimen>
+    <dimen name="dimen_cleanview_margin">35dp</dimen>
+    <dimen name="dimen_tools_item_margin">35dp</dimen>
+    <dimen name="dimen_tools_bar_content_padding">15dp</dimen>
+    <dimen name="dimen_notification_window_width">250dp</dimen>
+    <dimen name="dimen_notification_titlebar_color">2dp</dimen>
+    <dimen name="dimen_notification_button_corner">20dp</dimen>
+    <dimen name="dimen_tools_item_text_size">12sp</dimen>
+    <!--weather -->
+    <dimen name="dimen_main_static_little_app_w_h">114dp</dimen>
+    <dimen name="txt_weather">14dp</dimen>
+    <dimen name="dimen_main_text_drawable_padding_big">26dp</dimen>
+    <dimen name="dimen_main_text_drawable_padding_small">15dp</dimen>
+    <dimen name="dimen_main_margin_left">60dp</dimen>
+
+    <dimen name="dimen_percent_symbol_txt_size">10dp</dimen>
+    <dimen name="dimen_percentage_txt_size">13dp</dimen>
+    <dimen name="dimen_icon_padding">3dp</dimen>
+
+    <!-- tools fragment height -->
+    <dimen name="tools_fragment_height">400dp</dimen>
+</resources>

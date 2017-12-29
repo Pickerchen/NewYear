@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="action_fragment_selector_min_height">8dp</dimen>
+    <dimen name="horizontal_margin">20dp</dimen>
+    <dimen name="vertical_padding">20dp</dimen>
+
+    <!-- QR -->
+    <dimen name="qr_size">500dp</dimen>
+    <dimen name="logo_size">25dp</dimen>
+
+    <dimen name="app_bar">80dp</dimen>
+    <dimen name="text_padding">20dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_h1">22sp</dimen>
+    <dimen name="text_size_h2">18sp</dimen>
+    <dimen name="text_size_h3">16sp</dimen>
+    <dimen name="text_size_h4">14sp</dimen>
+    <dimen name="text_size_normal">20dp</dimen>
+</resources>

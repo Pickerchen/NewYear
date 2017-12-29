@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.sen5.secure.launcher.widget.Sen5TextView
+        android:id="@+id/tv_scene_title"
+        style="@style/LabelTextStyle"
+        android:text="@string/scene_title"
+        app:CustomTypeface="ROBOTO_CONDENSED_REGULAR"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="14dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.sen5.secure.launcher.widget.ScaleAbleView
+                android:id="@+id/btn_scene_red"
+                style="@style/ScaleAbleViewStyle"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="10dp"
+                android:drawableTop="@drawable/selector_scene_red"
+                android:nextFocusLeft="@+id/camera4" />
+
+            <com.sen5.secure.launcher.widget.ScaleAbleView
+                android:id="@+id/btn_scene_yellow"
+                style="@style/ScaleAbleViewStyle"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/btn_scene_red"
+                android:drawableTop="@drawable/selector_scene_yellow" />
+
+            <com.sen5.secure.launcher.widget.ScaleAbleView
+                android:id="@+id/btn_scene_green"
+                style="@style/ScaleAbleViewStyle"
+                android:layout_below="@id/btn_scene_red"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="2.5dp"
+                android:drawableTop="@drawable/selector_scene_green" />
+
+            <com.sen5.secure.launcher.widget.ScaleAbleView
+                android:id="@+id/btn_scene_blue"
+                style="@style/ScaleAbleViewStyle"
+                android:layout_below="@id/btn_scene_red"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/btn_scene_green"
+                android:drawableTop="@drawable/selector_scene_blue" />
+
+
+            <com.open.androidtvwidget.leanback.recycle.RecyclerViewTV
+                android:id="@+id/RecyclerViewScene"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginRight="0dp"
+                android:focusable="false"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_toRightOf="@id/btn_scene_yellow"
+                android:visibility="gone"
+                >
+
+
+            </com.open.androidtvwidget.leanback.recycle.RecyclerViewTV>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

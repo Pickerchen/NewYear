@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/record_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/ten"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_marginRight="@dimen/fifteen"
+            android:textSize="@dimen/twentyFive"
+            android:textColor="@color/record_content"
+            android:text="@string/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            />
+
+        <TextView
+            android:layout_marginLeft="@dimen/fifteen"
+            android:paddingTop="3dp"
+            android:textSize="@dimen/twentyEight"
+            android:textColor="@color/record_content"
+            android:text="@string/minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <com.ipcamerasen5.record.common.NumberPicker
+            android:layout_centerInParent="true"
+            android:focusable="true"
+            android:id="@+id/number_picker3"
+            android:layout_width="@dimen/fourty"
+            android:layout_height="@dimen/eighty"
+            android:layout_centerHorizontal="true"
+            app:np_textSize="@dimen/twenty"
+            app:np_max="23"
+            app:np_min="0"
+            app:np_value="4"
+            app:np_dividerColor="@color/record_bg"
+            app:np_selectedTextColor="@color/record_content"
+            app:np_textColor="@color/record_bg"
+            />
+
+        <TextView
+            android:textColor="@color/record_content"
+            android:paddingBottom="1dp"
+            android:paddingLeft ="@dimen/ten"
+            android:paddingRight="@dimen/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="23dp"
+            />
+
+        <com.ipcamerasen5.record.common.NumberPicker
+            android:layout_centerInParent="true"
+            app:np_textSize="@dimen/twenty"
+            android:focusable="true"
+            android:id="@+id/number_picker4"
+            android:layout_width="@dimen/fourty"
+            android:layout_height="@dimen/eighty"
+            android:layout_centerHorizontal="true"
+            app:np_max="59"
+            app:np_min="0"
+            app:np_value="4"
+            app:np_dividerColor="@color/record_bg"
+            app:np_selectedTextColor="@color/record_content"
+            app:np_textColor="@color/record_bg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

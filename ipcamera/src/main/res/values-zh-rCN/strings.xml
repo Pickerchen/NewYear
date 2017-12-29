@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">IPCamera</string>
+    <string name="language">zh-cn</string>
+
+    <string name="settings_ok" >确认</string>
+    <string name="settings_cancel" >取消</string>
+    <string name="settings_on" >打开</string>
+    <string name="settings_off" >关闭</string>
+    <string name="device">摄像头</string>
+
+
+    <!--record-->
+    <string name="clock_tips">您选择的闹钟有误，请重新选择</string>
+    <string name="record_remind">请插入移动存储设备</string>
+    <string name="record_item_name">摄像头</string>
+    <string name="sensor_camera">智能录制开关</string>
+    <string name="tenSecond_switch">智能录制十秒小视频</string>
+    <string name="camera_recording">录制</string>
+    <string name="record_item_status">状态：</string>
+    <string name="record_item_status_normal">在线</string>
+    <string name="record_item_recording">正在录制</string>
+    <string name="record_item_non_record">录制还未配置</string>
+    <string name="record_item_timed_recording">定时录制</string>
+    <string name="record_item_recordingtype">录制类型选择</string>
+    <string name="record_item_btn_record">录制</string>
+    <string name="record_item_btn_stop">停止</string>
+    <string name="record_setting_Recording_Type_Select">录制方式选择</string>
+    <string name="record_setting_Recording_Type">录制方式</string>
+    <string name="record_setting_Detail_Setting">设置内容</string>
+    <string name="record_setting_Detail_description">录制描述</string>
+    <string name="record_setting_Detail_description_24h">设置24小时录制后,设备会一直在后台保持录制。</string>
+    <string name="record_setting_Detail_description_dymanic">设置动态录制时,当设备检测有人脸时则录制一段视频。</string>
+    <string name="record_setting_Detail_description_smart">设置智能录制时,当智能家居系统sensor触发警报时录制三分钟视频。</string>
+    <string name="record_device_offline_remind">设备掉线中,暂时无法进行录制</string>
+    <string name="record_device_switchClose_remind">设备录制开关未打开,请打开录制开关</string>
+
+
+    <string name="record_setting_Repeat">重复</string>
+    <string name="record_dialog_reminder_title">警告：</string>
+    <string name="dialog_newStorage_remind">系统检测到有新的存储设备插入</string>
+    <string name="clock_save_remind">确认保存当前录制方式吗</string>
+    <string name="choose_storage">请选择您将要存储视频文件的路径</string>
+    <string name="dialog_newStorage_hint">路径:</string>
+    <string name="record_dialog_btn_cancel">取消</string>
+    <string name="record_dialog_btn_stop">停止</string>
+    <string name="start_time">录制开始时间</string>
+    <string name="end_time">录制结束时间</string>
+    <string name="save_the_setting">保存设置</string>
+
+    <!--video files-->
+    <string name="video_files">录制文件</string>
+    <string name="reservation">预约视频</string>
+    <string name="tenSecondVideo">10s小视频</string>
+    <string name="usbdrive">移动存储设备</string>
+    <string name="camera_five">五</string>
+    <string name="camera_four">四</string>
+    <string name="camera_one">一</string>
+    <string name="camera_three">三</string>
+    <string name="camera_two">二</string>
+    <string name="cap_fail">截图失败！</string>
+    <string name="cap_success">截图成功路径为：</string>
+    <string name="display_filter_outputmode">1</string>
+    <string name="ipcamera_camera">摄像头</string>
+    <string name="ipcamera_capture">截图</string>
+    <string name="ipcamera_close">关闭</string>
+    <string name="ipcamera_fourscreens">四分屏</string>
+    <string name="ipcamera_full_screen">全屏</string>
+    <string name="ipcamera_record">录制</string>
+    <string name="ipcamera_record_setting">录制设置</string>
+    <string name="ipcamera_record_stop">停止</string>
+    <string name="ipcamera_settings">设置</string>
+    <string name="ipcamera_singlescreens">单个设备</string>
+    <string name="ipcamera_small_screen">小屏播放</string>
+    <string name="loading">正在加载...</string>
+    <string name="status_connect_error">连接错误</string>
+    <string name="status_connect_timeout">连接超时</string>
+    <string name="status_connecting">正在连接中...</string>
+    <string name="status_off_line">离线</string>
+    <string name="status_online">在线</string>
+    <string name="switch_status_on">开</string>
+    <string name="switch_status_off">关</string>
+    <string name="Verify">确认</string>
+    <string name="week">星期</string>
+    <string name="one">一</string>
+    <string name="two">二</string>
+    <string name="thr">三</string>
+    <string name="fou">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
+    <string name="seven">日</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="Saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="everyday">每天</string>
+    <string name="hour">时</string>
+    <string name="minutes">分</string>
+    <!--array-->
+    <string-array name="record_setting_pop">
+        <item>定时录制</item>
+        <item>24小时录制</item>
+        <item>智能录制</item>
+        <item>动态录制</item>
+    </string-array>
+    <!--<item>动态录制</item>-->
+    <string name="pathOfStorage">移动存储路径</string>
+    <string name="sdCardlargeTip">磁盘空间不足，请更换存储设备</string>
+
+    <!--未翻译：暂时放着用来打包-->
+    <string name="wizards_info">You have not set up a camera yet, \n let\'s get started on it.</string>
+    <string name="wizards_go_btn">Let\'s go</string>
+    <string name="wizards_exit_btn">Next time</string>
+    <string-array name="record_recycler_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>EveryDay</item>
+    </string-array>
+    <string name="record_dialog_reminder_content">When the recording is terminated,the task
+        will be \n cleared and needs to be reset to start a new one.</string>
+</resources>

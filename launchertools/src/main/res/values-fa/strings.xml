@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--<string name="app_name">پرتاب ابزار</string>-->
+    <!-- [Sen5-Jesseyao-2016-12-07] For GeneralUtils -->
+    <string name="cannot_lunch_bluetooth_settings">دستگاه بلوتوث را پشتیبانی نمی کند!</string>
+    <string name="cant_find_backuprestore_apk">هیچ برنامه یافت نشد!</string>
+    <string name="best_memory_status">به بهترین وجه تمیز شده است</string>
+    <string name="release_memory">حافظه را برای</string>
+    <string name="currunt_memory">حافظه فعلی موجود است</string>
+    <string name="clear_memory">پاک کردن حافظه</string>
+    <string name="tools_skin">پوست</string>
+    <string name="tools_settings">تنظیمات</string>
+    <string name="tools_standby">ایستاده با</string>
+    <string name="tools_reboot">راه اندازی مجدد</string>
+    <string name="tools_usb">USB</string>
+    <string name="tools_sdcard">SDCard</string>
+    <string name="tools_filebrowser">فایل ها</string>
+    <string name="tools_network">شبکه</string>
+    <string name="tools_bluetooth">بلوتوث</string>
+    <string name="tools_clearup">پاکسازی</string>
+    <string name="tools_secqer_settings">تنظیمات secQre</string>
+    <string name="tools_backup_restore">پشتیبان گیری بازیابی</string>
+    <string name="tools_speed_test">تست سرعت</string>
+    <string name="tools_notification_center">هشدار</string>
+    <string name="tools_download_center">دانلود</string>
+    <string name="no_bluetooth">دستگاه بلوتوث را پشتیبانی نمی کند!</string>
+    <string name="no_backuprestore">این دستگاه پشتیبان گیری و بازیابی را پشتیبانی نمی کند!</string>
+    <string name="no_wallpaper_settings">تصویر زمینه سفارشی پشتیبانی نمی شود!</string>
+    <string name="notification_center">اطلاعیه</string>
+    <string name="no_notification">بدون اطلاع رسانی!</string>
+    <string name="clear_all_notification">همه را پاک کن</string>
+    <string name="dialog_reboot_title">راه اندازی مجدد</string>
+    <string name="dialog_reboot_message">مطمئنا راه اندازی مجدد</string>
+    <string name="dialog_standby_title">ایستاده با</string>
+    <string name="dialog_standby_message">مطمئنا به حالت آماده باش؟</string>
+    <!-- weekday -->
+    <string name="sunday">یکشنبه</string>
+    <string name="monday">دوشنبه</string>
+    <string name="tuesday">سهشنبه</string>
+    <string name="wednesday">چهار شنبه</string>
+    <string name="thursday">پنج شنبه</string>
+    <string name="friday">جمعه</string>
+    <string name="saturday">شنبه</string>
+    <!--  For weather and time -->
+    <string name="unknow_location">ناشناخته</string>
+    <string name="unknow_temp">U&#186;</string>
+    <string name="unknow_weather_condition">وضعیت نامعلوم</string>
+    <string name="weather_dew">نقطه شبنم</string>
+    <string name="weather_hum">رطوبت</string>
+    <string name="weather_uv">UV شاخص</string>
+    <string name="weather_wind">باد</string>
+
+</resources>

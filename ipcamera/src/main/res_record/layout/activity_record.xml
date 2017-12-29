@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/record_content_rl"
+    android:background="@color/black_color"
+    >
+    <!--<com.ipcamerasen5.record.ui.view.CustomGlsurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/record_bg_gl"
+        />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_LTCamera"
+        >
+
+    </RelativeLayout>
+
+
+<LinearLayout
+    android:id="@+id/ll_record"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/record_content_bg"
+    >
+    <LinearLayout
+        android:layout_marginTop="@dimen/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ninety"
+        android:layout_marginLeft="@dimen/fourty"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/fourty"
+        android:layout_height="@dimen/fourty"
+        android:id="@+id/iv_record"
+        android:src="@mipmap/ic_record"
+        />
+    <TextView
+        android:textSize="48px"
+        android:textColor="@color/record_content"
+        android:layout_marginLeft="@dimen/twenty"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ipcamera_record"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/record_ll_switch"
+        android:background="@drawable/item_record_selector"
+        android:layout_marginTop="@dimen/eight"
+        android:layout_marginRight="@dimen/fourty"
+        android:layout_marginLeft="@dimen/fourty"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/OT"
+        android:paddingBottom="@dimen/five"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:textSize="36px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eight"
+            android:layout_marginLeft="@dimen/fourty"
+            android:text="@string/sensor_camera"
+            android:textColor="@color/record_title"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:textSize="38px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/six"
+            android:layout_marginLeft="@dimen/fourty"
+            android:id="@+id/tv_tip_sensor_switch"
+            android:text="@string/tenSecond_switch"
+            android:textColor="@color/record_content"
+            />
+
+
+            <TextView
+                android:id="@+id/record_activity_switch_status"
+                android:textSize="23dp"
+                android:paddingBottom="3dp"
+                android:textColor="@color/record_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/sixty"
+                android:layout_marginRight="@dimen/NineTyFive"
+                android:layout_alignParentRight="true"
+                android:text="@string/switch_status_on"
+                />
+            <!--app:thumbTextPadding="20dp"-->
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_sensor_record"
+                android:layout_width="@dimen/seventy"
+                android:layout_height="@dimen/OO"
+                android:shadowColor="@color/record_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/twentyFive"
+                android:checked="true"
+                app:switchMinWidth="@dimen/fourtyFive"
+                android:textSize="8dp"
+                android:theme="@style/switch.test"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="38px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/twenty"
+        android:paddingBottom="@dimen/ten"
+        android:text="@string/camera_recording"
+        android:textColor="@color/record_title"
+        android:background="@color/record_bg"
+        android:layout_marginTop="@dimen/twentyFive"
+        android:layout_marginLeft="@dimen/fourty"
+        android:layout_marginRight="@dimen/fourty"
+        android:paddingLeft="@dimen/fourty"
+        />
+    <com.open.androidtvwidget.leanback.recycle.RecyclerViewTV
+        android:id="@+id/rv_devices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fourty"
+        android:layout_marginRight="@dimen/fourty"
+        />
+    <!--<include-->
+        <!--layout="@layout/item_record_device"-->
+        <!--/>-->
+</LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ThreeHundred"
+        android:id="@+id/record_activity_chat"
+        android:orientation="horizontal">
+    </LinearLayout>
+</RelativeLayout>

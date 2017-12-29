@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/record_bg"
+    >
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_monday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_monday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/monday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_tuesday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_tuesday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tuesday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_wednesday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_wednesday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/wednesday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_thursday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_thursday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/thursday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_friday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_friday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/friday"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_saturday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_saturday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Saturday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_sunday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_sunday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/sunday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/record_setting_pop_selector"
+        android:id="@+id/ll_everyday"
+        >
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cb_everyday"
+            />
+
+        <TextView
+            android:textSize="36px"
+            android:textColor="@color/record_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/everyday"
+            />
+    </LinearLayout>
+
+        <Button
+            android:textColor="@color/record_content"
+            android:textSize="36px"
+            android:background="@drawable/record_setting_pop_selector"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_record_recycle_verify"
+            android:text="@string/Verify"
+            />
+
+
+
+</LinearLayout>

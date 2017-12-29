@@ -1,0 +1,192 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+    </style>
+
+    <!--<item name="android:windowIsTranslucent">true</item>-->
+    <style name="myAppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--<style name="transition" parent="AppTheme">-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>-->
+    <!--</style>-->
+
+
+   <style name="MyAppTheme" parent="myAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <!--<item name="android:windowBackground">@mipmap/bg_camera_default_allscreen</item>-->
+
+    <style name="SettingsWindowAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:fragmentOpenEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentOpenExitAnimation">@anim/settings_fragment_fade_out</item>
+        <item name="android:fragmentCloseEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentCloseExitAnimation">@anim/settings_fragment_fade_out</item>
+    </style>
+
+    <style name="SettingsTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <!-- <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowShowWallpaper">false</item>
+		<item name="android:windowContentOverlay">@null</item> -->
+        <item name="android:windowAnimationStyle">@style/SettingsWindowAnimationStyle</item>
+    </style>
+
+    <style name="EditActivityTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!--  <item name="android:windowBackground">@android:color/transparent</item>
+         <item name="android:colorBackgroundCacheHint">@null</item>
+         <item name="android:windowIsTranslucent">true</item> -->
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@style/SettingsWindowAnimationStyle</item>
+    </style>
+
+    <style name="pin_dialog_animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/pin_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/pin_dialog_exit</item>
+    </style>
+
+    <style name="Canvas" />
+
+    <style name="Canvas.Text" />
+
+    <style name="Canvas.Text.Dialog" />
+
+    <style name="Canvas.Text.Dialog.Content" />
+
+    <style name="Canvas.Text.Dialog.Content.Title">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingBottom">@dimen/content_fragment_title_text_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/content_fragment_title_text_top_padding</item>
+        <item name="android:textColor">@color/content_title_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_title_text_size</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.Content.Breadcrumb">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/content_breadcrumb_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_breadcrumb_text_size</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.Content.Description">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/content_description_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_description_text_size</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List" />
+
+    <style name="Canvas.Text.Dialog.List.Title">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_title_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List.Description">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_description_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List.Badge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_description_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Canvas.Text.Dialog.List.Timestamp">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_timestamp_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Canvas.Image" />
+
+    <style name="Canvas.Image.Dialog" />
+
+    <style name="Canvas.Image.Dialog.List" />
+
+    <style name="Canvas.Image.Dialog.List.Checkmark">
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/list_item_checkmark</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="Canvas.Image.Dialog.Content" />
+
+    <style name="Canvas.Image.Dialog.Content.Icon">
+        <item name="android:maxHeight">@dimen/content_fragment_max_icon_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/content_fragment_default_icon</item>
+    </style>
+
+    <style name="Canvas.Image.Dialog.List.Icon">
+        <item name="android:scaleType">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="switch.control" parent="Theme.AppCompat.Light">
+        <item name="colorSwitchThumbNormal">@color/record_switch_2</item>
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/record_switch_2</item>
+        <item name="android:colorForeground">@color/record_content</item>
+        <item name="android:listSelector">@drawable/item_record_divider</item>
+    </style>
+
+    <style name="switch.test" parent="Theme.AppCompat.Light">
+        <item name="colorSwitchThumbNormal">@color/record_content</item>
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/record_switch_2</item>
+        <item name="android:colorForeground">@color/record_content</item>
+        <item name="android:listSelector">@drawable/item_record_divider</item>
+    </style>
+
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@color/record_storage_remind</item>
+        <!--是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="myDialogstyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
+    </style>
+    <style name="pop_anima" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/pop_in</item>  //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/pop_out</item>    //退出时的动画
+    </style>
+
+</resources>

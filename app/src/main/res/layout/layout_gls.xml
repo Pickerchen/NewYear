@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:focusable="false"
+    android:padding="0dp">
+    <!-- android:background="@drawable/selector_camera_item_bg"-->
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/lgls_glsurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:focusable="false" />
+
+    <!--android:layout_centerInParent="true"-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/lgls_load_ui"
+            layout="@layout/float_main_load_ui"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/lgls_tv_camera_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:gravity="bottom|right"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_def"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_def"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_camera_default" />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:text="@string/no_ip_camera_installed"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_blue_line"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

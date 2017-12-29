@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:textColor="@color/text_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:text="@string/add_new_ip_camera"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="0.1dp" />
+
+</RelativeLayout>

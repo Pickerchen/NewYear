@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--background color-->
+    <color name="bg_dark">#101518</color>
+    <color name="bg_black">#111111</color>
+    <color name="bg_tran_10">#19ffffff</color>
+    <color name="bg_white">#eeeeee</color>
+
+    <!--text color-->
+    <color name="text_white">#eeeeee</color>
+    <color name="text_black">#111111</color>
+    <color name="text_dark">#454444</color>
+    <color name="text_blue">#00bfc3</color>
+
+
+    <!-- wifisettings button Background Color-->
+    <color name="bg_blue">#00bfc3</color>
+    <color name="bg_cambridge_blue">#87e8ea</color>
+    <color name="bg_full_white">#ffffff</color>
+
+    <color name="bg_dialog">#e52d2d2d</color>
+</resources>

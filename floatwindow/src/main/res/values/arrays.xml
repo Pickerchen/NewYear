@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="array_menu_title">
+	    <item>@string/switch_left</item>
+	    <item>@string/switch_right</item>
+	    <item>@string/full_screen</item>
+	    <item>@string/close</item>
+	</string-array>    
+</resources>

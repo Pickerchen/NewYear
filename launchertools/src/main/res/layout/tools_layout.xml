@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><!-- [Sen5-Jesseyao-2016-12-21] -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_tools_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sen5.launchertools.widget.Sen5DateTimeView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_main_margin_left"
+        android:visibility="gone" />
+
+    <com.sen5.launchertools.weather.WeatherView
+        android:id="@+id/weather_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_main_margin_left"
+        android:layout_marginTop="70dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_customer_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="20dp"
+        android:focusable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_sat_illimite"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_tools_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:paddingLeft="@dimen/dimen_tools_bar_content_padding"
+        >
+
+        <include
+            android:id="@+id/img_clean_memory"
+            style="@style/style_tools_clean_memory"
+
+            layout="@layout/tools_cleanup_layout"
+            android:layout_alignParentStart="true"
+
+            />
+
+        <include
+            android:id="@+id/img_skin"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:visibility="gone"
+            android:layout_toEndOf="@+id/img_clean_memory" />
+
+        <include
+            android:id="@+id/img_usb_sd"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_clean_memory" />
+
+        <include
+            android:id="@+id/img_notification"
+            style="@style/style_tools_item"
+            layout="@layout/tools_notification_layout"
+            android:layout_toEndOf="@+id/img_usb_sd" />
+
+        <include
+            android:id="@+id/img_reboot"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_notification" />
+
+        <include
+            android:id="@+id/img_power"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_reboot" />
+
+        <include
+            android:id="@+id/img_dowload"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_power" />
+
+        <include
+            android:id="@+id/img_secqer_settings"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_dowload" />
+
+        <include
+            android:id="@+id/img_backup_restore"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_secqer_settings" />
+
+        <include
+            android:id="@+id/img_speed_test"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_backup_restore" />
+
+        <include
+            android:id="@+id/img_wallpaper"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_speed_test"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/img_bluetooth"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_wallpaper" />
+
+        <include
+            android:id="@+id/img_net"
+            style="@style/style_tools_item"
+            layout="@layout/tools_network_layout"
+            android:layout_toEndOf="@+id/img_bluetooth" />
+
+        <include
+            android:id="@+id/img_settings"
+            style="@style/style_tools_item"
+            layout="@layout/tools_item_layout"
+            android:layout_toEndOf="@+id/img_net" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

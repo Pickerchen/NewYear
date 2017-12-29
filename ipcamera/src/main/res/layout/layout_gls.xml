@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="0dp"
+    android:layout_weight="1"
+    android:padding="0dp"
+    android:focusable="false"
+    android:layout_height="match_parent">
+   <!-- android:background="@drawable/selector_camera_item_bg"-->
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/lgls_glsurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:focusable="false" />
+
+    <!--android:layout_centerInParent="true"-->
+    <com.ipcamerasen5.main.widget.Sen5TextView
+        android:id="@+id/lgls_tv_camera_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="230dp"
+        android:background="@android:color/transparent"
+        android:gravity="bottom|right"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="28dp"
+        android:focusable="false"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone" />
+    <include
+        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/lgls_load_ui"
+        layout="@layout/main_load_ui"
+        android:visibility="gone"
+        />
+</RelativeLayout>

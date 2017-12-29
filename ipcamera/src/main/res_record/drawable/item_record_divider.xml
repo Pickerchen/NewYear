@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >-->
+<!--    <item android:right="95px">
+        <shape android:shape="oval" >
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <item android:left="150px" android:top="60px" android:bottom="60px" >
+        <shape android:shape="rectangle" >
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="75px" />
+        </shape>
+    </item>
+
+    <item android:top="3px" android:bottom="3px" android:left="3px" android:right="98px">
+        <shape android:shape="oval" >
+            <gradient
+                android:endColor="#FFFAF0"
+                android:startColor="#F8F8FF"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:top="63px" android:bottom="63px" android:left="153px" android:right="3px">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:endColor="#FFFAF0"
+                android:startColor="#F8F8FF"
+                android:type="linear" />
+            <corners android:radius="72px" />
+        </shape>
+    </item>-->
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:left="30px" android:right="30px" android:drawable="@drawable/record_item_devider2"/>
+    </layer-list>
+<!--</layer-list>-->

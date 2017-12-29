@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dimen_94"
+        android:layout_height="@dimen/dimen_94"
+        android:background="@drawable/selector_bg_blue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <com.sen5.secure.launcher.widget.Sen5TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="13dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textColor="@color/selector_txt_white"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

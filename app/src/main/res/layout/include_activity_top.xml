@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp"
+    android:paddingLeft="38dp"
+    android:paddingRight="38dp"
+    android:paddingTop="25dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.sen5.secure.launcher.widget.TextClock
+            android:id="@+id/txt_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="31dp"
+            app:CustomTypeface="ROBOTO_LIGHT"
+            android:textColor="@color/white"
+
+            />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@color/white"
+            >
+
+        </View>
+
+        <com.sen5.secure.launcher.widget.Sen5TimerTextView
+            android:id="@+id/txt_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            app:CustomTypeface="ROBOTO_LIGHT"
+            android:textColor="@color/white"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

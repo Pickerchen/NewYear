@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c8ef8</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="transparency_white">#55ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="tv_white">#FFCCCCCC</color>
+    <color name="content_fragment_default_icon_color">#33F1F1F1</color>
+    <color name="content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="content_description_text_color">#88F1F1F1</color>
+    <color name="content_title_text_color">#FFF1F1F1</color>
+    <!-- 原来的选中颜色#0DFFFFFF   #99445963 -->
+    <color name="selector_color">#0000ff</color>
+    <color name="black_color">#000000</color>
+
+    <!--record-->
+    <color name="record_storage_remind">#bb000000</color>
+    <color name="record_title">#9f9f9f</color>
+    <color name="record_content">#ffffff</color>
+    <color name="record_content_bg">#88000000</color>
+    <color name="record_bg">#e63d3d3d</color>
+    <color name="record_switch">#0ea6ff</color>
+    <color name="record_switch_2">#0486ff</color>
+    <color name="record_bg_focused">#616162</color>
+    <color name="record_ing_color">#d94f4e</color>
+    <color name="record_btn_stop_color">#9e5a59</color>
+    <color name="record_btn_stop_textColor">#ffd2d7</color>
+    <color name="record_btn_stop_press_color">#584040</color>
+    <color name="record_btn_stop_press_textColor">#845051</color>
+    <color name="record_btn_record_color">#5c5c5c</color>
+    <color name="record_btn_record_textColor">#8c8c8c</color>
+    <color name="record_item_divider">#424242</color>
+    <color name="record_item_recording">#f44335</color>
+    <color name="record_setting_status">#b1ff58</color>
+    <color name="record_setting_spinner">#135aa8</color>
+    <color name="record_setting_spinner_press">#273d62</color>
+    <color name="record_setting_gradient_start">#0486ff</color>
+    <color name="record_setting_gradient_center">#1875d1</color>
+    <color name="record_setting_gradient_end">#1a58e2</color>
+    <!--record_dialog-->
+    <color name="dialog_reminder_icon">#3d3d3d</color>
+    <color name="dialog_btn_normal">#afafaf</color>
+    <color name="dialog_btn_normal_text">#525252</color>
+    <color name="dialog_btn_press">#6d6d6d</color>
+    <color name="dialog_btn_press_text">#e9e9e9</color>
+    <color name="dialog_device_info">#686868</color>
+    <color name="dialog_bg">#dbdbdb</color>
+
+    <!--video_files-->
+    <color name="item_video_top_bg">#575757</color>
+    <color name="item_video_below_bg">#2d2d2d</color>
+
+    <item name="list_item_selected_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_title_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_disabled_chevron_background_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_title_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_chevron_background_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_description_text_alpha" format="float" type="dimen">0.50</item>
+
+    <item name="picker_item_invisible_column_item_alpha" format="float" type="dimen">0.00</item>
+    <item name="picker_item_separator_alpha" format="float" type="dimen">0.50</item>
+    <item name="picker_item_visible_column_item_alpha" format="float" type="dimen">0.50</item>
+
+</resources>

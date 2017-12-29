@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.4.0'
+    compile files('libs/android-common-master.jar')
+    compile files('libs/fastjson-1.1.52.android.jar')
+    compile files('libs/voiceRecog.jar')
+    provided files('libs/framework.jar')
+    provided files('libs/framework_one.jar')
+
+    compile project(':ltipc')
+}

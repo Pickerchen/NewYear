@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView
+        android:background="@drawable/record_setting_spinner_selector"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/item_pop_tv"
+        android:textSize="38px"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thirtyFive"
+        android:text="Timed Recording"
+        android:textColor="@color/record_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="7dp"
+        android:paddingLeft="@dimen/thirty"
+        android:gravity="center_vertical"
+        />
